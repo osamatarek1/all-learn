@@ -1,0 +1,57 @@
+
+                                        /* hna b3lmk azy tshel el 5t mn t7t ay link we t2dr t7oto fo2 aw t7t aw tsh8bt 3la ay gomla aw t7t 5at t7t ay band fo2 aw t7t we b3lmk azy t5le el 7rof fe ay band smill or capitl  we b3lmk azy t7ol ay pand inline le block */
+                                           /* sodo-element                fe el mst2bl htt3lm 7aga mn el band da t5lek tt7km fe el 5at 2ly bt7oto fo2 ay band we tode ay mkan we tt7km fe el 7gm bta3o   */
+
+
+
+div.osama{
+ /* text-decoration: line-through;                         da t2dr mno t7t 5t  3la el klma el ktbha fe el sf7a aw el div aw ay 7aga  */ 
+ /* text-decoration:underline;                               da be5le el 5at t7t el klma  */
+ /* text-decoration: overline;                                    /* da be5le el 5at fo2 el klma  */
+  text-decoration: overline;                                 
+
+
+
+
+} 
+a.osos{
+    background-color: red;
+    padding:5px 10px;
+    color: white;
+    border-radius: 4px;
+     text-decoration: none;                                     /* da 2ly shale el 5at 2ly t7t el link */
+     display: inline-block;                                    /*ana 7att el band da 3shan wasm el [a] bta3 el sora bekon el kyma bt3to inline fa ana 7oltlo le [block] 3shan el 5syat 2ly adthalo kolha tsht8l ely hya padding + color we el klam da  */
+}
+
+
+p.smsm{
+ /*text-transform: capitalize;                                    hna 5let kol 7arf fe 2ol el gmla captil leh ln a7sn tt7km fe kol 7aga mn el css */
+/*text-transform: lowercase;                                      hna 5let el klam kolo smill*/
+ text-transform: uppercase;                                    /*hna 5let el klam kolo captal */
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  

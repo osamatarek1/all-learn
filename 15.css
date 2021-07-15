@@ -1,0 +1,49 @@
+
+
+
+                                    /* [hna b3lmk azy tt7km fe el klam 2ly gwa el div aza kan 3arby aw engilsh tgebo shmal aw emen aw fe el nos aw t5le el klam ebd2 mn el emen aw el shmal 3shal low 3mlt sf7a 3arby ] */
+                           /* [2ol 7aga el div 2ly mdelo class asmo osama we katb fe osama tarek we fe el nos dayf el swora we mdeha class [a] we deft el sora b3d kda 7tet width we height 3shan adeha el 3ard we el tol bta3 7gm el sora leh ana 3aml el band da ln be2sm el div 3la nosen we be5ls el sora fe el nos we 2ol klma osama tarek fe el div el 2olane we klmt scholl fe el div el tany we el sora fe el nos zy ma 7ttha fe nos el band we bt7km fe el css fe tnzel el klam we ttle3 el klam ]*/
+
+
+div.osama{
+   
+    background-color: #140909;
+    color:white;
+   /*text-align:right ;                           da he5le el klam 3la el emen */
+   /*text-align:left ;                                da he5le el klam 3la el shmal */
+    text-align: center;
+    /* direction: ltr;                                         hna anta 5let el div el klam ely gwa ebd2 mn el shmal le el ymen             */
+    /* direction: rtl;                                             hna anta 5aleto ebd2 mn el emyn le el shmal  we 5let el no2ta el fe klmt el slam 3lekm tb2a fe el shmal we tkon s7 mtnska 3la el gomla*/
+       direction: rtl;                    
+      
+
+
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+                                 
+
+
+
+ img.a{                                /*hna aba 3rft el sora ely 7ttha fe nos el div 3shan adeha 5syat tnzl we ttl3 aw low 3aoz asweha ben el klam aw 25le el klam fo2 we el sora fe el nos aw t7t kda e3ny  */
+
+     /*vertical-align:  text-top;                hna anta bt2olo 5le el klam fo2 we el sora mknha fe el nos  */
+     /* vertical-align: text-bottom;          hna ana 5let el sora fe el nos we el klam t7t 5als fe 25r el div */
+        /* vertical-align: middle;                hna bt2olo 5le el klam fe el nos zy el sora kolha swa wa7d  */
+           /* vertical-align: baseline;                de nfs 5set botoom betnzlo t7t bs 5als b2a we btzod el 7az el mosl el klmten le b3d lma t3mla htfhm grb bottom we de htfhm */
+           /* vertical-align: sub;                         de b2a zy bottom bardo btnzl el klam t7t 5als bs msh bekon fe 5at 5als ln [bottom] bt3ml 5t shfaf we [ baseline;] bt3ml 5t zahr [el 5sya de b2a msh bt3ml 5at ] */
+           /* vertical-align: super;                           de btnzl el klam t7t bardo nfse 5syat botoom bs btbrz el 5at gamd 3nhm kolhm el 5at ely btklm 3leh dh ely fe el div el mfsol el tany bekon fe 5at ben el klma 2ly fe 2ol div we el tanya  */
+           vertical-align: middle;
+}
+
+/* <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label> */
