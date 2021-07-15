@@ -1,0 +1,80 @@
+                        /* [m3loma dol 2 dars m3 b3d drs rkm 16 we drs rkm 21 bs tb3 b3d 3shan kda dfthm m3 b3d] */
+                       /* [b3lmk hna azy t5fe klam tal3 mn el div low 3aml 7gmo so8er we azy t3ml div fe bkra tnzl we ttl3 mno] */
+                         /* [we b3lmk azy t5fe el klam el zyda 2ly 5arg mn el div we lma tshaor 3la el no2t ezhr] */
+                           /* [we 3aml 5sya be el html lma tshaor 3la el div el klam 2ly 5fe be el css ezhr ] */
+                              /* [we m3lmk azy t5fe ay goz2 fe el div fo2 aw t7t ] */
+                                 /* [we t2dr t5ffe ay 7aga mboza el sf7a be 5set overflow] */
+
+
+div.osama1{
+width: 150px;
+height: 150px;
+background-color: #eee;
+margin:20px auto;
+border-radius: 6px;
+/* overflow: visible;                             de kyma el 5sya  */
+/* overflow: hidden;                          [m3na el band da ank 5fet el klam 2ly kan tal3 mn el div el zyada lnk hna m7dd [width:150px]fa el div s8er fa el klam el zyada tl3 bra el div fa el 5sya dy 5ft el klam el zyda] */
+/* overflow: scroll;                             el 5sya de 3mltha 3shan tst8na 3n 5set [hidden] 2ly fo2 el band da de b2a bt3ml eh de 3mltlk el div fe shret tnzl be bdl ma t5fe el klam be el 5syat el fo2 el 5sya de 3mltlk shret fe el div 3shan mt5fesh el klam we el 3mel enzl be el sahm aw el bkra 2ly at3mlt e2ra el klam bs el 5sya de fehma mshkla ank low 2llt el klam ely fe el div heb2a shkl el div w7sh we htfdl syba el bkra bs msh httl3 wla htnzl ln el klam b2a 2olel */
+overflow: auto;                                   /*el 5sya de gmda we agmd mnhm kolhm de b2a low 3aml div we fe klam tal3 bra el div ln anta 3ml 7gm el div so8er de bt3ml brdo el bkra 2ly t2dr beha tnzl t2ra el klam we low shlt el klam el zyda mn el sf7a berg3 tany el div le tb3o bdon ma e5le shkl el div w7sh fa de admn we a7sn mn el fo2eha  */
+/* overflow-y: hidden;                                hna anta bt2olo 25fel el goz2 el t7t el zayd bs  */ */
+/* overflow-x: hidden; */
+}
+
+
+
+
+
+
+div.osama{
+background-color: #ddd;
+padding: 10px;
+width: 180px;
+ margin:20px auto;                                   /*de ely gabt el div fe nos el sf7a klmt 20px de btnzlha shoya aw btl3ha fo2 shoya klmt outo 2ly gbtha  */
+white-space: nowrap;                                /*de 2ly tl3t el klam 2ly ba2y mn el str fo2 gnb el str el asasy 3shan anta mde el width 180px fa so8er fa ba2y el str nzl t7t el band da tl3o*/
+overflow: hidden;                                   /*de 2ly 5ft el klam el zyada 2ly tal3 mn el div*/
+text-overflow: ellipsis;                           /* el 5sya de 2ly 3mlt el ... we m3nha ank bt2ol le el 3mla in fe klam ana 5fe */
+}
+
+ div.osama:hover{                                 /* 5sya gmda we 3gbtne de b2a anta oltlo div osama 23mlo hover we adelo el 5sya el t7t hshr7ha  */
+  overflow: visible;                               /* el 5sya de 5alt el gmla 2ly m5tfya aw 2ly ms7ta lma tshaor 3la el no2t tzhr  */
+
+}
+
+
+
+
+
+
+div.osama3{
+background-color: #ddd;
+padding: 10px;
+width: 180px;
+ margin:20px auto;                                   /*de ely gabt el div fe nos el sf7a klmt 20px de btnzlha shoya aw btl3ha fo2 shoya klmt outo 2ly gbtha  */
+white-space: nowrap;                                /*de 2ly tl3t el klam 2ly ba2y mn el str fo2 gnb el str el asasy 3shan anta mde el width 180px fa so8er fa ba2y el str nzl t7t el band da tl3o*/
+overflow: hidden;                                   /*de 2ly 5ft el klam el zyada 2ly tal3 mn el div*/
+text-overflow: ellipsis;                           /* el 5sya de 2ly 3mlt el ... we m3nha ank bt2ol le el 3mla in fe klam ana 5fe */
+}
+
+
+
+
+
+
+
+
+
+div.osama2{
+   background-color: #ddd;
+   padding: 10px;
+   width: 150px;
+    margin:20px auto;                                   /*de ely gabt el div fe nos el sf7a klmt 20px de btnzlha shoya aw btl3ha fo2 shoya klmt outo 2ly gbtha  */
+   white-space: nowrap;                                /*de 2ly tl3t el klam 2ly ba2y mn el str fo2 gnb el str el asasy 3shan anta mde el width 180px fa so8er fa ba2y el str nzl t7t el band da tl3o*/
+   text-overflow: ellipsis;                           /* el 5sya de 2ly 3mlt el ... we m3nha ank bt2ol le el 3mla in fe klam ana 5fe */
+   overflow: hidden;                                   /*de 2ly 5ft el klam el zyada 2ly tal3 mn el div*/
+}
+  
+   
+   
+   
+
+
