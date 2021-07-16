@@ -1,0 +1,120 @@
+ /* 5olst el dars be3rfk el fr2 ben el align-items: flex-start we align-content: flex-end; */
+
+
+                                    /* ml5s el dars */
+                /* el [align-items:flex staret ]bt5lel t3ml msafa ben el div el  abn bt5lehm la ebd2o mn 2ol el div la fe el 25r we bekon bnhm msa7a low 2llt 7gm el width bta3 el div el r2ese be2rbo mn b3d */
+
+               /* align-content: flex-start;  hna bt2olo 5lehm fe 2ol el div be5lehm lz2en fe b3d */
+
+                /* align-content: space-between;    be3mlk msafa fe nos el div we wa7d bekon fo2 we el tany t7t  */
+
+
+
+
+
+
+
+div.osama{
+width: 600px;
+height: 200px;
+border: 1px solid red;
+margin: 20px auto;
+
+
+padding: 20px;
+
+
+
+
+
+
+}
+
+div.osama1{
+background-color: red;
+width: 200px;
+height: 50px;
+display: flex;
+justify-content: space-around; 
+margin-left:35% ;
+margin-top:-13px;
+
+}
+div.osama2{
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around; 
+   margin-left:45% ;
+   margin-top:83px;
+    }
+
+    .osama1 div{
+
+     margin-top:12px;
+
+
+    }
+
+    .osama2 div{
+
+        margin-top:12px;
+   
+   
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       .flex {
+        background-color: #eee;
+        width: 600px;
+        height: 400px;
+        padding: 20px;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap; 
+                /* m3loma el align-item:flex hwa beoz3 el divat el abn tolen be m3na t2dr tt7km fe el div gwa el div el r2ese */
+        /*align-items: flex-start;                    de bt5le el 3nasr fe el bdaya be m3na bt5le el shret fo2 we t2smo 3n b3d lkn 3mlhm wrab fo2 + h3mlhm el clac/3 t7t m3loma anta low 2llt el hight el fe el div el r2esee he2rbo mn b3d fe el msa7a */
+        /* align-items:flex-end;                          de bt5le ebd2 mn t7t */
+        /* align-items: center;                                   de bt5lehm fe el nos */
+        
+
+
+
+                /* da beoz3llk el div el abn gwa el div el r2ese t2dr t5le fo2 5als aw t7t 5als */
+
+        /* align-content: flex-end;                              btt7km fe el 3nas ely gwa el div kolha hna anta bt2oloe 5lehm kolhm fe 25r el div*/ 
+        /* align-content: flex-start;                         hna bt2olo 5lehm fe 2ol el div be5lehm lz2en fe b3d */
+        /* align-content: center;                                 hna be5lehmlk fe nos el div */
+
+
+
+               /* da be3mlk msa7a ma ben el 2 div el abn bardo  */
+            /* align-content: stretch;                               de kyma el 5saya we de bt3ml stretch le el divat */
+        /* align-content: space-around;                             da be7tlk msafa fe 2ol el div we msafa fe el nos we msafa fe el 25r */
+         /* align-content: space-between;                        be3mlk msafa fe nos el div we wa7d bekon fo2 we el tany t7t  */
+          /* align-content: space-evenly;                            be7tlk el 2 fe el nos we fr2 bnhm bset */
+            align-content: space-between; 
+
+      }
+      .flex div {
+        background-color: #f00;
+        color: white;
+        width: calc(100% / 4);
+        text-align: center;                      
+        
+         padding: 20px;
+      }
