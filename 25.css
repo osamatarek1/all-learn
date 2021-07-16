@@ -1,0 +1,19 @@
+                        
+                      /* hna shar7 el [postion:sticky] we hya shbeha le el Fixed bs el fr2 anha btsht8l lma toslha  */
+
+
+
+body{
+min-height: 5000px;
+
+}
+
+
+
+div{
+    background-color: red;
+    color:white;
+    padding: 10px;
+     position: sticky;                                        /*de shbeha le 5aset el [Fixed] bs el fr2 bnha we ben el Fixed anha btfdl sabta fe el mok3 mgrd ma eosl leha msh htsht8l tol ma el sh5s fe el mok3 moslhash */
+     top:20px                                                   /* mn hna t2dr tt7km fe in el div 2ly 3amlo el 5asa enzl shoya low m7dtsh mkano zy kada el 5saya msh htsht8l */
+}

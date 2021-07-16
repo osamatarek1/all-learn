@@ -1,0 +1,61 @@
+/*
+  CSS Variables
+  - Global Variable
+  - Local Variable
+  var(Variable Name, Fall Back Value)
+*/
+
+
+
+                       /* 5olast el dars ank t2dr t7t wasm we tsme be name 5as zy kda [--masterColor: black] we tde nfs el asm da le kol el 2lwon 2le 3ozha be nfs el lwon 2ly adto le el wasm da we htsht8l */
+                       /* m3loma msh ht7tag el 5saya 2la low 3mlt css 5arge le kam div m3enen fe el saf7a */
+
+
+
+ :root{                               /*hna da low anta 3aoz el 5saya thsht8l 3la el body kolo we el 5syat 2ly bt7tha fe btkon kol 5saya gnbha asm btsme 3la mazagk zy mcln masterpadding bs kol ma ht7tha fe ay div wa5d padding we anta 3aozo nfs kyma el padding 2ly mdeha le el band da bt7ot nfs el asm 22ly hwa da [--Masterpadding:20px;] */
+  --masterColor: blue;               /*aho btsme el asm we tro7 fe kol mkan fe lwon t7t el name 2ly msme hta5d nfs el kyma zy ma 3aml t7t */
+  --Masterpadding:20px;
+}
+
+
+
+
+  .main {
+    background-color: var(--masterColor, black);       /* aho hna ana  3mlha 7att asm 2ly smto fo2 we m3na klmt black any b2olo low ms7t el 5sya 2l 2saya bta3t fo2 el lwon el aswod esht8l */
+    color: white;
+    padding: calc(20px + var(--Masterpadding));            /*we hna 3aml nfs el klam bs [calc] hna 3mlha 3shan low 3oz tmez div fehm be padding zyada be m3na el 2x het7sbo el clac we wasm el padding ely msme eb2o kolhm 30px*/
+  }
+
+
+
+  h2 {
+    color: red;
+    background-color: var(--masterColor);
+    padding: var(--Masterpadding);
+  }
+
+
+
+  p {
+    color: red;
+     border: 2px solid var(--masterColor);                    /*enf3 tnfz 5set el lwon 7ta 3la el border */
+    padding: var(--Masterpadding);
+  }
+  a:hover {
+    color: var(--masterColor);
+    
+  }
+
+  
+
+
+
+
+   .local{                             /*hna b2a b3lmk an enf3 tde el 5saya 2ly 7ttha fo2 lw7dha bta3t [:root] enf3 t3mlha fe div 3ady bdon ma t7tha le el saf7a kolha */
+    --masterColor: black;                       /*hna mcln ana msme nfs asm el 5saya bta3t fo2 bs m8er el lwon mn azrr2 le black we asht8lt leh b2a m5dsh nfs el lwon el azr2 r8m an name el 5saya hwa hwa 3shan anta 7dttlo ekon aswod*/
+    background-color: var(--masterColor);              /*we 7tet hna asm el 5saya*/   
+    color: white;
+
+
+  }
+  

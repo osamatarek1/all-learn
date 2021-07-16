@@ -1,0 +1,22 @@
+
+                                                  /* hna b3lmk el border-radius we da btt7km fe morb3 el div fe shaklo */
+
+
+
+div{
+     width: 150px;
+     height: 150px;
+     background-color: red;
+     margin: 20px auto;
+     border-radius: 75px;                           /* da ms2ol 3n t8er shkl el div 75px 22ly 3mlha m3nha 5ale el div 3bra 3n dera ha ana 2smt nos el width */
+     outline: 2px solid black;
+                                 /* 2ol 7aga ank t2dr tt7km fe kol rokn fe el div zy ma anta shayf tany 7aga enf3 tde le kol rokn kmtyn msh kyma w7da  */
+     /* border-bottom-left-radius: 10px 20px ; */                
+     /* border-bottom-right-radius: 10px; */
+     /* border-top-right-radius: 20px 10px; */
+     /* border-top-left-radius: 20px 10px; */
+     -webkit-border-radius: 75px;
+     -moz-border-radius: 75px;
+     -ms-border-radius: 75px;
+     -o-border-radius: 75px;
+}

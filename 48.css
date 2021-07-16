@@ -1,0 +1,94 @@
+/* align-items: stretch=> default value
+
+
+/* 5olst el dars be3lmk low msln fe div ata 7att gwa klma we msh mde el klma de class aw 3aml zorar aw ay 7aga t2dr be el 5seat de t7rk el klma bdl ma tst5dam postion :reiltive we t7tha fe span  */
+
+
+
+*/
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+.flex{
+  background-color: #eee;
+  width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  /* align-items: stretch;                                         da el kyma bta3t el 5sya we bt5le el div 3arde */
+  /* align-items: flex-start ;                                        da be5le tole  */
+ /* align-items: flex-end;                                            da be5le etsh2lb we eb2a be el 3ks le fo2 */
+    align-items: center;
+
+
+}
+.flex div {
+  background-color: #f00;
+  color: white;
+  width: calc(100% / 3);
+  text-align: center;
+   padding: 20px; 
+}
+
+
+.float{
+  overflow: hidden;
+  background-color: #eee;
+  width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+}
+.float div {
+  background-color: #f00;
+  color: white;
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 20px;
+}
+
+.flex .one,
+.float .one{
+  height: 80px;
+}
+
+.flex .two,
+.float .two{
+  height:120px;
+}
+
+
+
+
+                     /* de el tre2a el s7 le t7rek ay div bda5lo klma aw wasf bt3mlo be el flex bdl ma  t7t el klma be tre2a el span we t7rkha be postin aw ank t3mlo be tre2t el line height  */
+.center{
+background-color: blue;
+color: white;
+width: 300px;
+height: 200px;
+display: flex;                           /*hna bt2olo 5le flex 3shan a2dr 2t3aml m3a */
+justify-content: center;                    /*de btoz3 el 3nasr el gwa el div be tre2a 3rdya aw ofkya mn el 25r bt5lle fo nos el div mn fo2*/
+align-items: center;                           /*hna 3shan t5le el klma ely gwa el div tb2a fe nos el div*/
+/* align-items: flex-start;                         da e5leha fo2 5als fe nos el gadol */
+/* align-items: flex-end;                            da e5le el klma t7t 5als fe nos el gadol */
+
+}
+
+
+
+                /* de tre2a low get t3mlo mn 8er flex e3ne low get t7rk el klma ely gwa el div  */
+.center1{
+  background-color: rgb(0, 102, 255);
+  color: white;
+  width: 300px;
+  height: 200px;
+  line-height: 200px;                        /*de bt5le el klma tb2a fe nos el div bt7sbha mn 7gm el height low hwa 200px ht7t 200px zy hna he5le fe el nos we t2dr tt7km mn fo2 we t7t kol ma btzod e3ny low hwa higeht 200px fe el ass atf2a low 7tet fe el band da 200px heb2a fe el nos 3aozo t7t 5als eb2a el d3f el hegiht bta3 el div el asase eb2a 400*/
+  text-align: center;                            /*de b2a bt5le el klma tege fe nos el div          */                             
+  
+
+}

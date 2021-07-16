@@ -1,0 +1,49 @@
+
+/* 2ol 7aga m3loma 3n el marign hna mcln fe el sf7a de anta mde el div el asasy ely hwa parent width:600px we anta 3aoz tde le div one marig-right:10px lma t3ml kda htl2e el banden nzlo t7t b3d bsbb el width bta3 el diiv el r2ese 600px we anta adet margin 10px we hma 2div gnb b3d e3ne e3tbr kda 20px 10 le wa7d we 10 le wa7d e3ny el width bta3 el div el r2ese b2a 620px fa 3shan kda nzlo t7t b3d low anta zodt el 20px ely adthm marign le el 2x div one htl2ehm rg3o tany  */
+
+ 
+
+
+
+/* hna el 27sn ank t7t el 5saya de le kol el divat 2ly fe el sf7a 3shan mt23dsh tdeha le kol div atf2na 2hmetha 3shan el padding we el porder met7sbosh mn el div el r2se we e7sl mshkla zy ma shr7t */
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;                           /*3shan el 5saya de tsht8l lazm ekon el div 2ly hekon gwa el r2ese wa5d width nos el div el div el r2ese 3shan el diven ego gnb b3d e3ny hna 3shan 2x div gwa el div el r2ese mdehm nos el width bta3 el div el r2ese ln lma adehm 300px het2smo 3la da we da heb2o 600px ad el div el r2ese low zodt msh hego gn b3d */
+            
+    font-family: sans-serif;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parent{
+background-color: #eee;
+width: 600px;
+margin: 20px auto;
+padding: 20px;
+overflow: hidden;
+}
+.one{
+    background-color: whitesmoke;
+    width: 280px;
+    float: left;
+    padding: 10px;
+    border: 10px solid red;
+     /*box-sizing: border-box;                         el 5saya de mohma gdn gdn m3nha anta hna mde le el div el r2ese 600px fa lma 7tet fe el div one padding we border 7gm el div zad fa bdl ma kano gnb b3d el diven b2o t7t b3d bsbb 7gm el div fa 3ndk 7alen la tzod el width bta3 el div t5le aktr mn 600 la t7ot el 5sya de we m3na el 5saya an ay padding aw border hdefo msh het7sb mn el div el r2ese*/
+     
+}

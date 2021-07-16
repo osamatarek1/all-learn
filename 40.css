@@ -1,0 +1,22 @@
+                                                /* dol m3nahm ank btst5m 6 5syat fe el box btt7km be 4 2ly hma 2l atghat + el lwon + el 5sya 3oza mn bra el div wla da5l el div inset gwa el div outset 5arg el div bs anta msh btktbha hwa befhma ana shar7 bs hna  */
+                       /* H-Shadow  l   v-Shadow   1   Blur   1 Spread   1   color   1    inset    1 outset*/
+
+
+
+
+div{
+    width: 300px;
+    padding: 20px;
+    background-color: #eee;
+    margin: 20px auto;
+    box-shadow: 10px 10px 10px 10px red inset;                          /*m3na klmt [inset] hna anta btst5dm el box shadow da5l el box ze el border kda*/
+ 
+}
+.as{
+    width: 300px;
+    padding: 20px;
+    background-color: #eee;
+    margin: 20px auto;
+    box-shadow: 10px 10px 10px 10px red ;                           /*m3na ank mt7tsh  klmt [inset] hna anta btst5dm el box shadow 5arg el box ze el border kda*/
+ 
+}

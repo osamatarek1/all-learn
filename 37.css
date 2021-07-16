@@ -1,0 +1,137 @@
+.parent{                /*Da el div el r2ese */
+    margin-bottom: 20px;
+     overflow: hidden;                           /*el band da 2lu bt2olo 25fe el goz2 2ly t7t 3shan el  [float] msh b7b asht8l be ln msh fahmo */
+     counter-increment: members-count;                     /*hna ana 7att el band da fe el div el r2ese we m3na el band da ank btolo 23mle 3dad be m3na 3dle kam div gwa el band el r2ese da we rkmhmle be 1 we 2 we 3 3la 7asb kam div low 3 zy ma 3aml hna herkmhmlk tlka2y bdon ma tktb anta fe html */
+}
+
+
+
+
+
+
+
+
+.one{
+    background-color: #eee;
+    padding: 10px;
+    width: 600px;
+    float: left;                               /*de m3nha bt2olo 5le el divat tge n7et el shmal 33shan tb2a gnb el morb3*/
+    position: relative;                          /*hna 7atet relatuve fe el div el 2sase bta3 el 3 3nasr ana msmehm class wa7d 3shan a2dr 27rkhm t7t be abslote*/                           
+}
+
+
+
+.one::after{
+    content: counter(members-count);                                 /*hna lazm 277t el klma 2ly 7ttha fe el div el r2ese fo2 3shan el 3dada 2ly herkm el divat be 1 2 3 hna we adeto 5seet abslote 3shan 27rko we azbt el arkam*/ 
+        position: absolute;
+        color: white;
+        background-color: red;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        right: -10px;
+        bottom: 27px;
+        font-weight: bold;
+    
+    }
+    
+
+
+
+
+
+
+.one::before{          
+    content: attr(data-text) ;                                 /*el band da mohm we hwa ely besh8l el [after] we el [befor] m3loma t2dr tktb fe [content hna klam we hezhr 3la el sf7a bdl el band 2ly katbo fe kos bt3ml "we btktb hna el gmla 2ly 7abbha tzhr" band b2a attr(data-text) ; da b2a 2ly 3amlo fe el Html we katb fe kalmt [test]  da aknk 3mlt prgraf aw div we ana ast5dmto ka hover lma agy ashor 3la el div ezhr hfhmk t7t fe ba2y el shar7*/
+    display: none;                                                    /*2oltlo disply none 3shan 25fe klmt test 2ly 3mlha fe el html be attr(data-text)  we 5feto 3shan lma 23ml hover 3la el div ezhr;*/
+    background-color: rgb(0, 255, 76);
+    color:rgb(252, 244, 248);
+    max-width: min-content; 
+   
+}
+
+.one:hover::before{                                      /*el hover 2ho*/ 
+    display: block;                                      /*2oltlo disply block 3shan etl3 eb2a fe 2ol el div lma agy ashaor 3leh*/ 
+    
+}
+
+
+
+
+
+
+
+.user{                                                      /*da el div el so8er ely mkteb fe [o] + [A] + [E] ama msme el 3div class wa7d zy ely fo2*/
+background-color: #eee;
+width: 50px;
+margin-right: 20px;
+padding: 10px;
+height: 55.5px;
+font-size: 50px;
+text-align: center;
+float: left;                                                          /*2oltlo [float left 3shan eb2a fe mkano ]*/
+}
+
+
+.user::before{
+    content: attr(data-text) ;                                 /*ana 3mltlo nfs ely 3mlto fe el div bta3 one 3mltlo hover*/
+    display: none;
+    background-color: rgb(0, 4, 255);
+    color:rgb(252, 244, 248);
+    font-size: 30%;
+    display: none;
+    
+    
+}
+
+.user:hover::before{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+                           /* hna ana shelt el shakl 2ly bekon 7ato el ul we 7atet ana shakl el div 2ly kont 3amlo shkl sahm mkan shakl el no2ta btal el ul t2dr t3ml ay shkl be el before we el after */
+
+
+
+ul{
+    list-style: none;
+}
+
+
+ul li{
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 10px;
+
+
+}
+ul li::before{
+     content: "" ;                                 /*el band da mohm we hwa ely besh8l el [after] we el [befor] m3loma t2dr tktb fe [content hna klam we hezhr 3la el sf7a bs hna ana bt3lm azy 23ml sa7hm fe el sf7a]*/
+    position: absolute;                         /*hna 7tet [absloute] 3shan 27rk el el morb3 2ly h3ml mno el sahm ely 3la el emen el 5dra el after da*/ 
+    width: 5px;
+    width: 0px;
+    height: 0px;
+    /* background-color: wheat; */                             /*hna shelt el back grouned 3shan el zero kan 3mlha abed bs kant bayna fa shltha 3shan shkl el sahm el backgrround be3ml lwon alp el morb3*/
+    left: -20px;
+    top:50%;
+    margin-top: -10px;                                                   /*margin top gabt el morb3 fe el nos el div mmkn t3mlha be top 3ady ln msh fahma awy*/
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent green transparent transparent;                              /*el band da mohm gdn gdn kalmt [transparent] da lwon shfaf msh beban 3shan ttl3 mn el mobr3 el sahm el 25dr*/
+
+}
+
+

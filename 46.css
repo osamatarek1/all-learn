@@ -1,0 +1,408 @@
+/*Filexible
+For Parent [m3na parent el div el r2ese
+display: flex=> hna bt2olo 3aoz el div filexboox
+flex_direction: row => row de el deivolt aw el kyma bta3t el flex_direction
+flex=wrap          el 5saya de m3na bt5le el div marn mhma tzod 3nasr el abn we el width low msh mt2sm s7 we baez hwa be3lg da we ezbto fa msh htl2e fe div azl t7t we baez hwa be2smhm gnb b3d
+flex-flow  [flex-direction+ [flex-wrap] e3ny btt7km fe el div hekon emen aw shmal we htt7km fe 3aoz el div maren aw la2 
+
+
+
+justify-content: flex-start=> Default Value
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+     /* [m3oma] el float aw el overflow:hiden lma t3ml 5sya rtl fe el html msh hesht8l low mde anta float:left lazm tro7 t8ero be float right lkn el fliex het3ml 3ady we de mzto  
+     html{                 /*de ana 3mlha 3shan aben  an el filex a7sn mn el float we aben el mzaya hna ana b2ol le el sf7a 5ale el klam eb2a mn el emen le el shmal el 5sya msh httb2 8er 3la el flex bs lakn el float msh httb2 8er lma a2olo fe class el abn [float:right] 
+      direction: rtl;                      
+    }*/
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+ 
+  }
+  .flex {
+     
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+  
+   display: flex;
+                                       /* [de bt5le el klam mn el shmal le el emen gwa el div mn 8er ma t7t fe el html we t8er trteb el sf7a mn shmal le emen btt7km fe ely gwa el div nfso]         */
+    /*flex-direction: row;                                                 de el defolt aw el kyma bta3t el 5saya low 3aoz t8erha be m3na t5le el klam ebd2 mn el emen le el shmal bt3ml el 5saya el t7t de row-rev... hna ana b3rfk el kyma */
+    flex-direction: row-reverse;                                       /*[el 5olsa el band da btst5dmo low 3aoz el klam gwa el div mn el shmal le el emen bdn ma t7t el band fe el html 2ly asmo direction: rtl;]             de btn2l el gomal ely gwa el div low hwa shmal ht5le emen we el 3ks de fedtha ank msh lazm tde le sf7a el [html:direction: rtl;] 3shan t5le el klam mn el shmal le el emen aw el 3ks [m3loma hna b3rfk ank t2dr t8er atgah el sf7a mn el shmal le el emen be mgrd ank t7t el 5saya de bdon ma t7t fe el html direction: rtl; bs htn2l el klam 2ly gwa el div nfso bs be el 5sya de */
+    
+
+
+
+
+                                      /* [ de 2ly bt5le el klam 2ly gwa el div eb2a t7t b3do bs el meza anha bt5le el klam etshklb eb2a mn t7t le fo2 be3ks ] */
+    /* flex-direction: column;                                                 de bt5le el klam fe el div enzl t7t b3d akno inline */
+   /*flex-direction: column-reverse;                                            de bt5le el kam t7t b3d bardo bs feha zyada ank bt5le el klam mn t7t le fo2 bt3ks el klam we de mztha hna anta bdom el 5seten m3 b3d [column+reverse]*/
+    
+
+
+
+
+
+
+
+
+                                        /* de el kyma ma kym el [flex] bt3rfk e3ny ay div maren be m3na mhma tzod 3nasr el divat el abn gwa el div el r2ese we 3asr el abn 7ta low el width bt3hm baez bezbto we msh be5lo div fehm eboz */
+     /*flex-wrap: nowrap;                                de el kyma bta3t el 5saya we de btmez el flex fe in anta mde el div el r2ese 600px aho we mde divt el abn el 4 25% fa hna zad wa7d b2o 5 el mfrod fe div zyda enzl t7t ze ma 7asl fe el [float] bs de mezt el [filex in bt5e el div mrn e3ne eshel zy ma t7ot we be ay kyma]                            */
+     flex-wrap: wrap;                                     /*de anta low 3aoz tt7km fe el div we t5le msh marn we meshlsh 3dd divat zyda 7ta low el width 8alt we msh mtoz3 s7 3la 3dd el divat el abn bs de acln mezt el flex bs ana bshr7lk low 7abb tt7km */
+     /*flex-wrap: wrap-reverse;              m3na el 5saya de ank bt2olo a2fl 5set mrn e3ne mt5lesh el 3nasr el  div ely zyada t3lgha we t5leha gnbhm nzlha t7t we el 5sya [reverse ] anta bt2olo 5le el div bdl ma hwa nzl t7t etl3 fo2 */
+     /* flex-flow: row wrap;                          de 25tsar le [flex-direction:row] we 25tsar le [flex-wrap:wrap] we row m3nha mt5le el klam gwa el div eb2a be el 3ks zy 5set el html we wrap de m3nha ank btt7km fe el div el 5 el zyada 3shan enzl t7t we meb2ash mrn *
+
+
+                                                    
+
+
+                                                             /* [hna b3lmk azy tn2l 25r div 2ly hwa el 5 bta3 el abn 3la el emen aw fe el nos msh ht3rf t3mlha fe el float ] */
+/* justify-content: flex-start;                            de el defolt bta3 5set el flex we de mztha anha btoz3 el 3nasr bta3to aw el content gwa el flex box fe 2ol el flex  */
+/* justify-content:flex-end;                                hna anta 5let el div ely kan t7t 3la el shmal b2a 3la el emen*/
+/*justify-content:center;                                  el 5saya de 5alt el div el abn el 5 eb2a fe el nos we s3b gdn t3mlha fe el [float: ;] lnk low grbt t3mlha be el clac we tde el width le 3 3nasr mn el abn bs clac 100% msh htt3ml low e3nt fkrt tde le 5 div marign left 3shan egy fe el nos el donya htboz htl2e 5 div b2a fe saf 3 lw7do bsb el margin 2ly adtholo 5d el width bta3 el saf kolo*/
+
+
+
+
+
+
+                     /* de bt3lmk azy t3ml msa7a fe el flex ben el divat el abn at3lmt t3mlha 2bl we b3d we b3d bs we 2t3lmta fe el flat  anzl t7t 3shan tfhm el 5saya*/
+
+      /*justify-content: space-between;                    el 5saya de 2ly 5altk toz3 msa7a br7tk bdon ma toz3 el msa7a 2l b2ya be aedk ze el float we de btoz3 ben el 3nasr bs  */
+    /*justify-content: space-around;                  de b2a anta bt2olo 5le fe msa7a 2bl el 3onsr we b3do bdon ma t3ml fe el float zy ma shr7t */
+   /* justify-content: space-evenly;                      hna low 3aoz tgm3 el 2 msa7a m3a b3d 2bl we b3d  */
+  
+  }
+
+
+
+
+
+
+
+
+  .flex div {
+    background-color: #f00;
+    color: white;
+    width:25%;
+    text-align: center;
+    padding: 20px;
+    
+  }
+
+
+
+
+
+
+
+
+
+  .float {
+    overflow: hidden;           
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+  }
+  .float div {
+    background-color: #f00;
+    color: white;
+    float: right;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+  /* Flex low 3aoz t3ml kyma shret lma td8t tf7 fe el mst2bl de 5sya mn 5syat el flex bt5le el klam t7t b3do anta ht2ol tb ma da el 3ady bdon ma 23ml fehm sh8l bs el fkra ank t2dr t5le el klam bd2 mn t7t le fo2 bdon ma tst5dm [postin] */
+             /* hna ana ast5dmt 5set el [column-reverse] 2ly bt5le el 5nat t7t b3d we be el m2lop */
+
+
+  .flex0{
+   display: flex;      
+         /* flex-direction: column;                      de bt5le el klam fe el div enzl t7t b3d akno inline */
+         flex-direction: column-reverse;               /*de bt5le el kam t7t b3d bardo bs feha zyada ank bt5le el klam mn t7t le fo2 bt3ks el klam we de mztha hna anta bdom el 5seten m3 b3d [column+reverse]*/
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    
+  }
+
+  .flex0 div{
+    background-color: #f00;
+    color: white;
+    width:25%;
+    text-align: center;
+    padding: 20px;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              /* hna shar7 meztt el filex in 5set [flex-wrap:nowrap] de btkon el valeo bta3 el filex aw el kyma bt3to bt5le div el filex maren be m3na mhma tzod 3dd divat el abn we el width bt3hm baez be3lgo lwo7do */
+  
+  .flex10{
+    display: flex;
+    flex-wrap: nowrap;                                 /*de el kyma bta3t el 5saya we de btmez el flex fe in anta mde el div el r2ese 600px aho we mde divt el abn el 4 25% fa hna zad wa7d b2o 5 el mfrod fe div zyda enzl t7t ze ma 7asl fe el [float] bs de mezt el [filex in bt5e el div mrn e3ne eshel zy ma t7ot we be ay kyma]                            */
+   /* flex-wrap: wrap;                                     de anta low 3aoz tt7km fe el div we t5le msh marn we meshlsh 3dd divat zyda 7ta low el width 8alt we msh mtoz3 s7 3la 3dd el divat el abn bs de acln mezt el flex bs ana bshr7lk low 7abb tt7km */
+     background-color: #eee;
+     width: 600px;
+     padding: 20px;
+     margin: 20px auto;
+   }
+ 
+   .flex10 div{
+     background-color: #f00;
+     color: white;
+     width: 25%;
+     text-align: center;
+     padding: 20px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+   
+                                      /* 5olst shr7 el div da an 5set [flex-wrap: wrap-reverse;]tl3t el div 2ly nzl t7t fo2 2ol saf ln el 5sya feha 2 kyma msh w7da 2ol w7da bt2olo mt5lesh el div marn be [wrap]2[reverse] bt2olo tl3 el div fo2 bdl ma ekon t7t */
+                                      /* hna anta httklm 3la 5set el flex-wrap: wrap-reverse; we de low anta 3aml div we 3aml 5saya filex we 2afl el divolt bta3 5set flex-wrap: nowrap 2ly hya bt5le el div marn mhmha tzod fe divat el div mfesh 7aga htnzl t7t low l8tha we 5lta [flex-wrap: nowrap] zy none kda hna anta bt2olo mt5lhosh mrn kda el div el 5 henzl t7t l2nk l8er 5set mrn fe el filx [el 5sya el ana shar7 3leha b2a ht5le el div 2ly hwa nzl t7t lo7do etl3 fo2 fe 2ol saf ] */
+   .flex15{
+    display: flex;      
+                                       
+     flex-wrap: wrap-reverse;              /*m3na el 5saya de ank bt2olo a2fl 5set mrn e3ne mt5lesh el 3nasr el  div ely zyada t3lgha we t5leha gnbhm nzlha t7t we el 5sya [reverse ] anta bt2olo 5le el div bdl ma hwa nzl t7t etl3 fo2 */
+      /* flex-flow: row wrap;                   hna 25tsat le el band hna bt2olo 5le el saf msh marn we met8ersh el klam le el shmal le el emen htl2e 25tsrat kter  we de ht5le el div el 3ks bdl ma el div el 5arg kan fo2 heg3 t7t 3ady*/
+     background-color: #eee;
+     width: 600px;
+     padding: 20px;
+     margin: 20px auto;
+   }
+ 
+   .flex15 div{
+     background-color: #f00;
+     color: white;
+     width: 25%;
+     text-align: center;
+     padding: 20px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  /* hna btshr7 azy t5le 5 div  3la el emen bdl ma kan shmal we msh ht3rf t3mlo be el float */
+   .flex20{
+    display: flex;      
+     flex-flow: row wrap;                                 /*hna 25tsat le el band hna bt2olo 5le el saf msh marn we met8ersh el klam le el shmal le el emen htl2e 25tsrat kter  we de ht5le el div el 3ks bdl ma el div el 5arg kan fo2 heg3 t7t 3ady*/
+    /* justify-content: flex-start;                            de el defolt bta3 5set el flex we de mztha anha btoz3 el 3nasr bta3to aw el content gwa el flex box fe 2ol el flex  */
+    justify-content:flex-end;                                 /*hna anta 5let el div ely kan t7t 3la el shmal b2a 3la el emen*/
+
+     background-color: #eee;
+     width: 600px;
+     padding: 20px;
+     margin: 20px auto;
+   }
+ 
+   .flex20 div{
+     background-color: #f00;
+     color: white;
+     width: 25%;
+     text-align: center;
+     padding: 20px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .flex25{
+    display: flex;      
+     flex-flow: row wrap;                                 /*hna 25tsat le el band hna bt2olo 5le el saf msh marn we met8ersh el klam le el shmal le el emen htl2e 25tsrat kter  we de ht5le el div el 3ks bdl ma el div el 5arg kan fo2 heg3 t7t 3ady*/
+    
+    justify-content:center;                                   /*el 5saya de 5alt el div el abn el 5 eb2a fe el nos we s3b gdn t3mlha fe el [float: ;] lnk low grbt t3mlha be el clac we tde el width le 3 3nasr mn el abn bs clac 100% msh htt3ml low e3nt fkrt tde le 5 div marign left 3shan egy fe el nos el donya htboz htl2e 5 div b2a fe saf 3 lw7do bsb el margin 2ly adtholo 5d el width bta3 el saf kolo*/
+
+     background-color: #eee;
+     width: 600px;
+     padding: 20px;
+     margin: 20px auto;
+   }
+ 
+   .flex25 div{
+     background-color: #f00;
+     color: white;
+     width: 25%;
+     text-align: center;
+     padding: 20px;
+   }
+
+
+
+   
+                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .flex35{
+    display: flex;
+     justify-content: space-between;                     /*el 5saya de 2ly 5altk toz3 msa7a br7tk bdon ma toz3 el msa7a 2l b2ya be aedk ze el float */
+   /*justify-content: space-around;                   de b2a anta bt2olo 5le fe msa7a 2bl el 3onsr we b3do bdon ma t3ml fe el float zy ma shr7t */
+     /* justify-content: space-evenly;                      hna low 3aoz tgm3 el 2 msa7a m3a b3d 2bl we b3d  */
+     background-color: #eee;
+     width: 600px;
+     padding: 20px;
+     margin: 20px auto;
+   }
+ 
+   .flex35 div{
+     background-color: #f00;
+     color: white;
+     width: calc(70% /3);                   /*el far2 hna ben el flex we el float in el flex beoz3 el msa7a 3la 7sb ma anta 3aoz bdon ma tzbt fe margin wla 5ra  */
+     text-align: center;
+     padding: 20px;
+   }
+
+
+
+
+
+   .float45 {
+    overflow: hidden;           
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+  }
+  .float45 div {
+    background-color: #f00;
+    color: white;
+    float: right;
+   width: calc(90% /3);                   /*hna fe el float anta lazm toz3 el 10% 2ly atb2o 3la el margin left we right 3shan t3ml msa7a  */
+    text-align: center;
+    padding: 20px;
+  }
+  /* hna low 3aoz toz3 el msa3a 3la el divat mt5lhmsh gnb b2d */
+  .float45 .osama{
+    margin-left: 5%;
+    margin-right: 5%;
+    /* low 3aoz b2a toz3 msa7a 2bl el div we b3do mcln anta 3aoz msa7a 6% eb2a htde el div el r2ese 94% we el 6% htoz3hm kda 
+    margin-left: 1%;              hna anta bt2olo kol div ea5d msa7a  lefr 2bl we b3d  1% w
+    margin-right: 1%;              we hna nfs el klam bt2olo kol div mn el 3 ea5d right 1% 2bl we b3d  */
+  }
+
+
+
+
+
+
+
+
+   
+          
+                                

@@ -1,0 +1,150 @@
+/* transition      [m3nha el t7km fe 7alt el 3onsr betn2l mn mkan le mkan aw 7ala le 7ala mcln bt2dr tt7km f el margin aw tt7km fe ano etn2l mn mkan le mkan tany fe ad ay tt7km fe el top we el bootom ae el right we el left enzl fe ad eh w2t egy shmal fe ad eh w2t mn n7et el wa2t  mcal be el band [ transition-duration: 5s; hna anta bt2olo 5ale lma ashaor el div  e23d 5 swany et7rk m3loma lazm tb2a 3aml hove le el 3onsr we mdelo el 5asya aw el atgah 2ly 3ozo ero7 fe lma eshaor mcln margi:left;]
+duration                  de m3nha el wa2t 2ly he7sl fe 7ala el t7rk
+property                   de m3nha ank t5tar el 5syat 2ly fe el hover 2ly  3aozha tsht8l fe el t7rek
+delay                        de m3nha lma tgy tshaor 3la el div he23d kam sanya 3shan ebd2 el div et7rk we anta bt7dd be el swany zy ma mwd7 t7t
+timing function               de m3nha 3aoz tre2t el t7rek tmshe mstkema wla tbd2 bte2 we tnthe bte2 aw sre3     */       
+
+
+
+*{
+     box-sizing: border-box;                  /*el 5saya de 5arg 3n el dars de lw htde padding: ; we border fe el div msh het7sb mn 7gm height: ; we width:  ; bta3 el div */
+     
+}
+
+
+
+
+
+.one{
+          background-color: #eee;
+          width:200px;
+          height: 100px;
+
+
+
+                                      /* da ms2ol 3n t7rek el 3nsr hea5d kam sanya ana 3amlo sanya w7da mmkn anta tzod br7tk zy kda 5s he23d 5 swany kda */
+
+         transition-duration: 2s;                 /*el 5saya de m3nha el wa2t 2ly anta 3aoza etn2l fe el div hna ana 3amlo etn2l fe 2s m3nga  2 sanya  we mmkn tzod 3ady m3loma el 1ms m3na el code m3na el ant2al mn el 7ala el 2ola le el tanya hetm fe nos sanya m3loma hwa he3ml el 5syat 2ly anta mdhalo fe el hove 2ly hwa margin-left we top we el width da fe 7alt low anta msh m7dd hna fe 5saya m3ena lsa h3lmhalk t7t */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              /* da ms2ol 3n lma tge t3ml hover aw tshaor 3la el 3onsr el 7rka ht23d ad eh 3shan tsht8l hna ana 3aml swany w7da mmkn t3mlha aktr */
+
+         transition-delay: 0.5s;                     /*de m3nha lma agy ashaor 3la el 3onsr 3shan e3ml hover e23d nos sanya we ebd2 mr7lt el t7rk 2ly 3mlha fe [ transition-duration] ana hna 3mlha 5 swany */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                             
+                                                     
+                /*el bnden dol ms2olen 3n anho 5syat fe el hover 3ozha tsht8l fe t7rek el div we el 5sya 2ly msh ht5trha mgrd ma htshaor 3la el div htt3ml msh htt3ml fe el 7rka lma et7rk we low 25trt 5set 2ly btkb feha [all] he5tar kol el 5syat 2ly mktoba fe el hover we da msh kwes */
+
+         /*transition-property: all;                   m3na el band da ank bt2olo [all] we m3na all ank bt2olo sh8l gme3 2l 5syat 2ly 7ttha fe el hover e3ny kolha tt7rk zy ma ana 3aml fe el hover enzl t7t we ero7 shmal we el width ekbr m3loma ank t7dd ay bzbt 3aozo bekon a7sn 3shan el donya mtbozsh hlmhalk fe el band 2ly t7t da */
+          transition-property:  margin-left,  margin-top,  width;                /*[m3loma de a7sn mn all be kter lnk bt5tar anho 5sya htsht8l]   m3na el 5sya de ank bt2olo el 5syat 2ly 25trtha de hya 2ly tsht8l be m3na el band ely fo2y lma 7tet all m3nha an kol ely fe el hover 2ly hesht8l lkn hna anta bt7dd eh 2ly esht8l fa 7rkt lma el div et7rk we el 5sya 2ly msh ht5trha mgrb ma ht3ml hover we tshaor 3la el div htl2e el width 3shan anta m5trtosh we mktbtosh hna hekbr 3la tol we msh hestna ekbt m3a 7rkt tn2l el div lnk m5trtosh*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            /* da ms2ol 3n tre2t sr3t el  transition-delay we hwa mashy be m3na 3aoz 7rkt el tn2el tkon bte2a wla sre3a we tbd2 sre3a wla tbd2 bte2a we kda */
+
+        transition-timing-function: ease;                               /*el 5sya de m3nha el t7km fe 7rkt el div we hwa bemshe e3ny el 7rka bta3t el t7rk htkon fe nfs el mstwa wla htekon feha fr2 w2t fe el bdaya aw el nhya be m3na hna klmt [ease] m3nha  hna hebd2 bte2 b3d kda hesr3 b3d kda henthy bte2 m3loma fe el nos besr3 msh mt2kd mnha besr3 de*/
+        /* transition-timing-function: linear;                                de m3nha in hemshe be shkl 5te be m3na mn el 2ol le el nhya aw el 25r hekon be nfs el sor3a mfesh fr2 */
+        /* transition-timing-function: ease-in;                                  hna m3nha ano hebd2 bdaya bte2a b3d kda hekml 3ady we herg3 3ady hwa bs el bdaya 2ly htkon bte2a  */
+        /* transition-timing-function: ease-out;                                    hna b2a hemshe 3ady we el nhya htkon bte2a we berg3 3ady*/ 
+        /* transition-timing-function: ease-in-out;                                    da bebd2 bte2 we benthy bte2 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                /* hna tor2 25tsar el 5sya be kza shkl */
+
+                     
+           /* transition: width 3s, height 1s;                 hna low 3aoz t5tsr el code  we kman bt5le el width t23d 3 swany we el height t23d swany wa7da fa 7rka 7lwa 3shan low 3aoz 7aga t5ls 2bl 7aga we tb3n hna anta m5trtsh el margin left wla top */
+           
+
+
+                         /* we t2dr t3mla be nfs el 5syat 2ly fo2 bdon ma tktbhm fe code wa7d hna b2olo 3aoz el width e5ls fe 3 swany we el height fe swany w7da */
+               /* transition-property: 3s, 1s;                           m3loma low mktbtsh el 5seten we 3mlt mcln 3s bs eb2a el width we el height he5do nfs 3dd el swany fe el bd2*/
+               /* transition-property: width, height; */
+
+
+
+
+
+           /* transition: all 0.5s 2s linear;                            hna low 3aoz t5tsr el code kolo we hna anta bt2olo m3a klmt [all] ank 3aoz kol el 5seat 2ly fe el hover tsht8l we m3na [0.5s] m3na el 7rka tt3ml fe nos sanya we m3na [2s] e3ny hentzr 2swany 3shan el 7rka tsht8l we m3na [linear] in el sor3a htmshe be shkl mntzm */
+
+           /* transition: all 2s 0.5s linear;                                  de m3nha hya hya el fo2eha bs el far2 any 8ert trteb el 2rkam 5let e23d nos sanya 3shan el 5sya tsht8l we e23d snyten fe t7rek el div we 3gbtny */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+                                    /* hna 2l 5syat 2ly htktbha fe el hover hya 2ly htsht8l lma tge tshaor 3la el div we hya 2ly httt7rk t2dr mcln lma tshaor bdl ma kan el div el r2ese width 200px t2dr t5le 620px mgrd ma htshaor hekbr we t2dr t3ml margin left we top  */
+
+
+.one:hover{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 620px;
+    height: 200px;
+}

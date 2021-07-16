@@ -1,0 +1,58 @@
+/* The margin Collapse
+[1] Only Vertical margib Coollapse         be m3na dars el coolapse msh betb2 8er 3la el margin bs
+[2]bigger margin wins                      be m3ana afrd fe div el margin bta3o akbt mn el tany zy el 25dr we el 27mr kda 
+[3] Margin Collapsing With Elements Without Anything Between                     hna be3rfk an low 7tet div wstehm zy ma 3mlt fe el html we grbt msh heboz be m3na low 7tet div r2ese we mnskthosh hesht8l       
+[4] Nesting Does Not Prevent Collapse                           hna be2olk an low 7tet el <hr> ma ben el 2x div el 5saya msh htsht8l lnk 3mlt fr2 bnhm
+
+
+
+ */
+
+
+
+
+
+
+.parent{
+    overflow: hidden;
+    margin: auto;
+   background-color: #eee;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.parent .one,
+.parent .tow
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+  
+   
+}
+.tow{
+    background-color: #aaa;
+    
+}
+.one{
+    background-color: #ddd;
+  
+}
+
+.up{
+    height: 80px;
+    background-color: rgb(211, 35, 35);
+    color: white;
+    margin-bottom: 40px;
+  
+   
+}
+.dwon{
+    height: 80px;
+    background-color: green;
+    color: white;
+    margin-bottom: 20px;
+ 
+}
