@@ -1,0 +1,92 @@
+
+
+                                       
+
+body{
+      margin: 0%;                                       /*da 2ly mtl3 el div we lz2o fe 2ol el sf7a  */ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    /* m3loma mhma low 3aoz t3ml msa7a ben el divat bs fe el sf7a we hma mcln 5 eb2a bt2ll w7da mnhm bt7sb 3la 4 divat bs low 3aoz t3ml msa7a benhm kolhm zy fe el shar7 kolo t7t bt3ml 7sabk ank btzod 1% zyada be m3na loe 5divat we htt3ml msa7a 1% eb2o 6% bdl 5% */
+
+
+
+div{
+                     /* [hna ana 3mll el bnod de kont dayf 5 3nasr div we atb2a mn el 100% 95  we 3shan ana 3aoz 23ml maben kolo el divat ms7at fa btzed msa7a kman zyda eb2o b2o 6 3nasr be 6% etb2a 94% h2sm el 94% 3la el 5 divat heb2o be 18.8 ln 6 3nsor da msh bet7sb m3ahm fe el 2sma kda hetb2a 1% da adet le el margin-left:1%] */
+/* width:18.8%;                                                 hna el mfroh el [width 7gmo 100%] we ana 7att 5 3nasr  we ana 3aoz 23ml msa7a ben kol band fehm eb2a hezed kman 3onsr 3shan 23ml msa7a bnhm kolhm eb2a ana kda e3tbr 3ndy 6 3nasr be 6% etb2a mn el 100%  94% eb2a h2sm 5 3nasr el 2sasen zy kda  94% / 5 hetl3 18.8 2ly 7ttha we ana 3shan mde el 5 divat m3rfhm le b3d fa 7tet 18.8 lehm kolhm fa kol w7da fehm hta5d el msa7a de kda mtb2e 1% da hde le el [margin-left:1%] eb2a kda tmam   */
+/* margin-left:1%; */
+
+
+
+
+
+                      /* hna ana 3mlt msa7a ben el 5 deviat 2% msh wa7d we el 3onsr el byzed 3shan 3aoz 23ml msa7a bnhm kolhm eb2o 6 3nasr 6 fe 2 eb2o 12%  hn5smhm mn el 100% etba 88%  we h2sm 88% 3la 5 3nasr hetb2a 17.6% we h7t el 2% fe margin left het2smo 3la el 5 divat  */
+/* width:17.6%; */
+/* margin-left: 2%; */
+
+
+
+
+                                    /* hna 3mlt bdl ma t7sb be el 2la el 7sba band [calc da 2ala 7sba]  b7sb ana 3nde kam 3nsr 3aoz msa7a ana 3ndr 5 3nasr we 3onsr zyada fr2 msa7a eb2a 6 b5smhm mn el 100% etb2a 94% b2smhm 3la 4 we b7ot el 1% margin we el calc bt7sb lwo7dha */
+
+/* width: calc(94% / 5);                  hna el 2ala bta3t el sf7a 2ly 7sbtha bdon ma 23ml zy fo2 b7sb bs kam msa7a 3ozha  */
+/* margin-left: 1%;                       we hna b7dd el msa7a htkon kam fe el % */
+
+
+
+
+                                     
+
+                               /* hna ana at3amlt be el px gh el 3amel 2al 3aoz msa7a ben el 5 divat 15px 2oltlo tmam h7sb el 5 fe 15px eb2a 75px we el msa7a ely btzed 3shan htdehm kolhm ms7at eb2a 90px eb2a 100% - 90px 3la el /5px     we b7ot fe el marign-left: el 15px bto3 el msa7a */
+ /* width: calc((100% - 90px)/5); */
+/* margin-left: 15px; */
+
+
+
+
+
+
+
+
+                               /* hna ana at3amlt be el px gh el 3amel 2al 3aoz msa7a ben el 5 divat 10px 2oltlo tmam h7sb el 5 fe 10px eb2a 50px we el msa7a ely btzed 3shan htdehm kolhm ms7at eb2a 60px eb2a 100% - 60px 3la el /5px     we b7ot fe el marign-left: el 10px bto3 el msa7a */
+ /* width: calc((100% - 60px)/5); */
+/* margin-left: 10px; */
+
+
+
+
+
+
+
+
+
+
+
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+background-color: #eee;
+
+
+                                        
+width: calc(94% / 5);                  /*hna el 2ala bta3t el sf7a 2ly 7sbtha bdon ma 23ml zy fo2 b7sb bs kam msa7a 3ozha  */
+margin-left: 1%;                        /* we hna b7dd el msa7a htkon kam fe el % */
+float: left;                                          
+ /* float: right;*/
+
+
+}
+

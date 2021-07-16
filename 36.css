@@ -1,0 +1,81 @@
+
+
+
+                                 /* 5olst el dars azy t3ml 3nasr mozefa be m3na t3ml div we trko t5le 3omed we t3ml div we t5fe 3 agza2 mno be el lwon el shfaf etb2a mn el div shkl sahm tzbto bt3ml el 5saya bta3t el 3nasr el mozyffa be [befor]+[aftr] */
+
+
+
+
+
+
+
+ .parent{                /*Da el div el r2ese */
+    margin-bottom: 20px;
+     overflow: hidden;                           /*el band da 2lu bt2olo 25fe el goz2 2ly t7t 3shan el  [float] msh b7b asht8l be ln msh fahmo */
+}
+
+.one{
+    background-color: #eee;
+    padding: 10px;
+    width: 600px;
+    float: left;                               /*de m3nha bt2olo 5le el divat tge n7et el shmal 33shan tb2a gnb el morb3*/
+    position: relative;                          /*hna 7atet relatuve fe el div el 2sase bta3 el 3 3nasr ana msmehm class wa7d 3shan a2dr 27rkhm t7t be abslote*/                           
+}
+.one::after{
+    content: "" ;                              /*el band da mohm we hwa ely besh8l el [after] we el [befor] m3loma t2dr tktb fe [content hna klam we hezhr 3la el sf7a bs hna ana bt3lm azy 23ml sa7hm fe el sf7a]*/
+    position: absolute;                         /*hna 7tet [absloute] 3shan 27rk el 3oamed ely 3la el emen el 5dra el after da*/ 
+    width: 5px;
+    height: 100%;
+     right: -1.2%;
+    top: 0%;
+    background-color: green;
+    
+
+}
+
+
+.one::before{          
+    content: "" ;                                 /*el band da mohm we hwa ely besh8l el [after] we el [befor] m3loma t2dr tktb fe [content hna klam we hezhr 3la el sf7a bs hna ana bt3lm azy 23ml sa7hm fe el sf7a]*/
+    position: absolute;                         /*hna 7tet [absloute] 3shan 27rk el el morb3 2ly h3ml mno el sahm ely 3la el emen el 5dra el after da*/ 
+    width: 0px;
+    height: 0px;
+    /* background-color: wheat; */                             /*hna shelt el back grouned 3shan el zero kan 3mlha abed bs kant bayna fa shltha 3shan shkl el sahm el backgrround be3ml lwon alp el morb3*/
+    left: -20px;
+    top:50%;
+    margin-top: -10px;                                                   /*margin top gabt el morb3 fe el nos el div mmkn t3mlha be top 3ady ln msh fahma awy*/
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent green transparent transparent;                              /*el band da mohm gdn gdn kalmt [transparent] da lwon shfaf msh beban 3shan ttl3 mn el mobr3 el sahm el 25dr*/
+    
+
+
+}
+
+.user{                                                           /*da el div el so8er ely mkteb fe [o] + [A] + [E] ama msme el 3div class wa7d zy ely fo2*/
+background-color: #eee;
+width: 50px;
+margin-right: 20px;
+padding: 10px;
+height: 55.5px;
+
+font-size: 50px;
+text-align: center;
+float: left;                                                          /*2oltlo [float left 3shan eb2a fe mkano ]*/
+
+}
+
+
+
+
+
+
+                                           /* hna t2dr t3ml el 3omed el 5adra be el sban bt7tha fe sf7t el html fe 25r el klam bta3 el div bt7thm fe el 3 divat tb3n 3 */
+
+/* .one .pipeline{            hna kont mde 5syat le el span 3shan 23ml 3omed m7rkha bra el gadol we mde 5sya relative fe el div el r2ese bta3 span
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    right: -2%;
+    top: 0%;
+    background-color: green;
+}*/

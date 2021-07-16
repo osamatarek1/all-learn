@@ -1,0 +1,47 @@
+                                     
+     /* [5olst el dars ank t2dr t3ml be band [z-index:5;] t5le el div hwa el zahr el 2ol be m3na low 3aml div r2ese gwa 3 divat we 3aozhm be nfs el shakl el 3amlo btde el band 2ly 3aozo ezhr el 2ol el 5asya zy ma ana mde el 5asya hna le Div[tow] 2l div 2ly hya5d rkm aktr hwa ely heb2a el 2ol  /*] */
+    /*m3loma el 5saya msh htsht8l 2la low fe el div ay 5saya postion zy ma 3aml hna postion:relitve */
+     /*[m3loma tnsek el sf7a lma bt7ot band postion:absloute be5le 25r band fe el 3 divat 2ly 7tthm hwa el 2ol we hwa 2ly zahr be m3na bekon 3ks el trteb el s7 mn t7t le fo2 bebd2 hwa we ana mt3lm el 5saya [z-index: 5;] 3shan a2dr 25le ay div hwa 2ly bayen el 2ol br7ty   ] ] */
+.one{
+    background-color: rgb(15, 19, 250);
+    color: white;
+    padding: 10px;
+width: 200px;
+height: 50px;
+ position: absolute;                                      /*hna de mhmtha anha bt5le el divat fo2 b3d mmkn ay postion t3mla msh shart postion:apsloite */
+ top: 20px;
+ left:20px;
+text-align: center;
+
+
+}
+
+
+
+
+.tow{
+background-color: rgb(8, 248, 88);
+color: white;
+padding: 10px;
+width: 200px;
+height: 50px;
+position: absolute;                                      /*hna de mhmtha anha bt5le el divat fo2 b3d mmkn ay postion t3mla msh shart postion:apsloite */
+z-index: 5;                                              /* de el 5sya 2ly el mfrod el dars kolo 3shanha de mohmta ank t2dr mnha lma tktb rkm 5 2ly katbo da t5le el div 2ly ktbt fe el 5saya hwa 2ly ezhr zy htl2e fe el sf7a el div da 2ol wa7d zahr low ro7t 3la ay div tany mcln [div one] we adtha  z-index: 10;  htl2eha hya 2ly b2t el 2ol m3na kda 2ly bta5d rkm aktr be el 5saya hya 2ly btsht8l */
+ top:15px; 
+ left:15px; 
+text-align: center;
+
+}
+
+
+
+.thre{
+background-color: rgb(241, 4, 4);
+color: white;
+padding: 10px;
+width: 200px;
+height: 50px;
+position: absolute;
+text-align: center;
+
+}

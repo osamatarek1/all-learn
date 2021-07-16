@@ -1,0 +1,98 @@
+div{                                           /*hna ana m3rf el div 3shan agrb el 5syat de kolha 3le*/
+    /* width: 500px;                           7gm el div tb3n mknsh fe fe el shar7 dol bs ana 3mlthm le tgrbt 7gat */
+    /* height: 500px;                          7gm el div tb3n mknsh fe fe el shar7 dol bs ana 3mlthm le tgrbt 7gat  */
+
+      
+
+
+
+
+
+                             /* [de bnod bta3 el lwon we el swora 2ly 7ttha we fe 5syat azy tkrr el swora fe el div ] */
+
+       background-color: #FF4500;                            /* hna anta 3aml lwon le el div a7mr shklo bed kda kolo tgarb*/ 
+    /* background-color: rgb(0,0,0,50%);                        de t2dr t3ml mnha ay lwon we tn2s mn 50% drga el lwon we btgeb el lwon mn 0,0,0,   */
+       background-image: url("osama.f.jpg");
+    /* background-repeat: repeat-x;                         hekrrha be el 3ard  */
+    /* background-repeat: repeat-y;                         hekrrha be el Tol  */
+    /* background-repeat: repeat;                           hna anta bt2ol krr el sora fe el sf7a kolha */
+    /* background-repeat: no-repeat;                        m3nha mtkkrsh el sora we de el kyma bt3tha */
+       background-repeat: no-repeat; 
+
+
+
+
+
+
+
+                             /* [de bnod t2dr mnha t3ml ay 5sya mhma tnzl be el sf7a tfdl 2odamk zy el 23lan be Fixed] */
+
+    /* background-attachment: scroll;                       m3na el band da {attachment} ank t2dr mno t5tar 5syat kter mnha fixed we m3na fixed ank mhma tnzl fe el sf7a 2l 7aga 2le htkon 3mlha msh htro7 mn 2odamk ana hna 3mlha (scroll) we de el kyma bt3tha el Asasya msh bt3ml ay 7aga ln low m7ttsh scroll hya btt3ml lw7da ln kymtha  */
+    /* background-attachment: fixed;                        hna anta bt2olo 23mle el sora fixed m3na {fixed} an mhmha htnzl be el sf7a el sora htl2eha 2odamk msh ht5tfe we m3na fixed 7aga sbta fe mknha aw gmda  */
+
+
+
+
+
+
+
+
+                                       /* [de bnod t2dr beha t7rk ay sora gwa div aw ay 7aga tany ] */
+
+    /* background-position: left top;                       hna anta bt2ol 5le el sora 3la el shmal 2ede we da acln bekon mkna el asase we de msh bt8er 7aga de el kyma el 2sasya  */
+    /* background-position: left center;                    hna bt2olo htha fe el 3mod 2ly 3la el shmal 2ly hwa mknha bs tnzl fe nos el div e3ny htkon fe mknha bs htnzlha fe nos el div  */
+    /* background-position: left bottom;                    hna bt2olo 5leha 3la el shmal bardo fe mknha bs 5leha t7t fe 25r el Div  */
+    /* background-position: right bottom;                   hna bt2olo wdeha 3la el emyn el n7ya el tanya w5leha t7t 5als bardo  */
+    /* background-position: center top;                     hna bt2olo 5leha fe nos el sf7a bs mn fo2 e3ny htkon fe nos el Div bs lz2a fo2 fe 2ol el div fe noso */
+    /* background-position: center bottom;                  hna bt2olo 5leha fe nos el div bs mn t7t lz2a t7t fe 25r el div                    */
+    /* background-position: center center;                  hna bt2olo 5leha fe nos el div */
+    /* background-position: right top;                      hna bt2olo 5leha 3la el ymen el n7ya el tnya bs mn fo2 5als fe 2ol el div e3ny 3ks mknha 2l 2sasy  */
+    /* background-position: right center;                   hna bt2olo 5le 3la el ymen lz2a fe el 3mod bs nzla fe nos el div eb2a htkon lz2a 3la el emyn fe nos el div  */                 
+    /*; background-position: right                          [#mohm]m3loma low mcln 3mltha [right:] bs we sbtha ht3ml lw7dha center fa low mcln low ht3ml 5sya right + cnter msh mshkla tktb el center ln el site bektbha lw7do we de t3lmk an lma t3ml right lwo7da aw left aw ay 7aga lw7da he7t center lzm tb2a fahm de*/
+    /* background-position: 300px 100px;                    [mohm]el 5sya de t2dr mnha t7rk el sora ely gwa el div br7tk [300px] de btode 3la el Emyn we el shmal we [100px] btnzlo t7t low 2llt btl3o fo2  */
+    /* background-position: 50% 50%;                        [mohm] t2dr t7rk el sora mn el band da bardo 2ol [50%]de btwdy eymen we t2dr t2ll t5le shmal we el [50%]el tanya de bttnzl t7t ana fe el band da genha fe el nos  */
+
+
+
+
+
+                                    /* [de bnod 3aml div fe sora w5da el div kolo we t2dr tktb klam fe 3ady] */
+                         /* m3loma a7sn 5sya fehm le 3ml broaz be el swora fe el div 5set [contain;] bsbb ank mhma ts8r aw tkbr fe el sf7a msh htboz m3ak bs lazm tzbt el [width:]  we el [height:] 3shan tzbt el swora lnha msh bta5d el div kolo zy 5set [cover] bs t2dr tzbt el swora mn ay mok3 mcln 3la 7gm el div 2ly 3mlo */
+
+    /* background-size: auto;                               [ de el valeo bt3tha aw el kyma bta3t] el band da we da code 2ly mmkn tshel auto we t7t [cover] 2ly btmllk el div be el swora mzbota eb2a kemt el 5sya de [auto] we msh bt3ml 7aga ln de kmtha   */
+    /* background-size: cover;                              [mohm] el 5sya de low anta 3aml div we 7att fe sora zy hna kda el band da we 5set [cover] bt5le el swora m3mola fe el div kolo akno beroaz m3loma mshkltha ank lma bttl3 be el mos el sora btboz fa 5syt el [contain] a7sn mnha bs ht7tgag tzbet 7gm el div 3la ad el sora la amta tzbt el swora 3la ay mok3 zy ma shar7 t7t*/
+    /* background-size: contain;                            [mohm]de nfs 5set cover bs el far2 ane de msh btmla el div kolo be el sora btseb 7ta mn 3la el emyn be el tol mmkn tktb feha klam aw wasf le el swora m3loma hya a7sn mn 5syt cover le sbb ank mhma btb3d be el mos el sora msh btboz t2dr anta tzbt el div 3la ad el swora we tzbt el swora 2ly ht7tha mn ay mok3 bezbt 7gm el swora*/
+    /* background-size: 300px 300px;                        [mohm]de t2dr mnha ank tkbr el swora we Ts8rha br7tk bt8er fel el [300px] w7da bt3rd w7da btol */
+    /* background-size: 100% 50% ;                          [mohm] t2dr bardo tzbt el swora be [100%] we [50%] we [100%] we [100] btmla el div kolo m3loma bardo btboz el sora lma bt3ml ts8er llsf7a bs 2w2at ht7tgha kda a7sn 5sya fehm [contain;]*/
+   
+}
+
+
+
+
+
+
+
+
+
+
+                    /* [t2dr be el bnod de tdef sworten fe div wa7d w7da 5lfya be 3ard el div we tolol mbroza we el tanya tkon sora s8era t7tha 3leha hna m3mola fe el style bta3 el body htzod bs bdl ma hna background bs htb2a background image we ht7t el swor da low ht3mlo fe el sf7a css hna low ht3mlo fe style el body zy ma m3mol bs htzbt el swor ] */
+
+/* div.osama{ 
+    width: 800px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 25px;
+    background: url(osama.g.png), url(osama.x.jfif);
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+
+
+
+
+
+}*/
+
+
+
+

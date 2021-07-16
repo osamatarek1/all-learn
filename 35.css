@@ -1,0 +1,53 @@
+ 
+ 
+                                                /* 5olast el dars azy t2dr tlwon 2ol 7arf mn ay satr bdl el span we azy tlwon 2ol satr fe ay div aw brgraf mhma ts8r aw tkbr el shasha  */
+                                                /* we be3lmk azy lma tge ta5d ay band mn ay saf7a copy mcln azy t8er el lwon bta3 ay klam tgy t5do copy bekon fe el asas azr2 anta t2dr tt7tkm fe  */
+ 
+ 
+ 
+ 
+ .one span{                                      /*hna de bta3t el span 2l 3adya  */
+display: inline-block;
+background-color: red;
+color: white;
+font-size: 60px;
+font-weight: bold;
+
+
+
+
+}
+
+
+
+
+.tow::first-letter{                                        /*de tre2et el 3onsr el m5fy btlwon 2ol 7arf mn el gmla we a7sn mn el span*/ 
+display: inline-block;
+background-color: red;
+color: white;
+font-size: 60px;
+font-weight: bold;
+
+
+
+}
+
+
+
+.thre::first-line{                                      /* de anta bt2olo lwon 2ol satr fe el prgraf we m3loma mhma ts8r el sf7a 2w tkbrha befdl 2ol satr mtlwon e3ny ft7t mn shasha aw phone 2opl satr 3la msa7t el shasha hwa ely btlwon*/
+font-weight: bold;
+color: green;
+
+
+}
+
+
+
+ /*.one::selection{                                   el 5sya de m7ddlo 2ol div fe el sf7a bt2olop lma tdos 3leh tkten low mcln ht5do copy bt2olo etlwon el lown el bnfsge da bdl ma ekon azr2 el lwon bta3o el asasy 3shan low msh hele2 3la tnskat el sf7a
+    background-color: hotpink;
+}*/ 
+
+
+::selection{ 
+    background-color: hotpink;                    /*el 5sya de bt2olo kol el sf7a  we ay band 7d egy e5do copy bdl ma ezhr el lwon el azr2 ezhr el lwon el bnfsgy ana hna 7ddt el sf7a kolha mktbtsh fe el 2ol class div m3en zy fo2*/  
+}

@@ -1,0 +1,39 @@
+.osama{
+    width:600px;
+    height: 400px;
+    padding: 20px;
+    margin: 100px auto;                                      /*de 2ly gabt el div fe el nos */
+    box-shadow: 0px 0px 10px 2px grey;                     /*2ol atnen 2ly bezbto el 2traf bta3t el gdol aw el 3omed 3mlenhm lwonhm aswod el 3omed  [0px] we [0px] 3 5sya [10px] de btzod el sho3a3 2ly fe el 3mdan bardo 2ly hwa 3mlo romady 2ly hwa mnor fe el 3omed low zodt 3n 10px btl2e 7gm el sho3a3 kber aknk bt3ml div we bts8ro we btkbro we [2px] de btzod mnha zhor el lwon bta3 el sho3a3 e3ny 3ozo zahr awy nos nos kda kol ma btzod bt2a zahra zy bold kda we [grey] de anta bt2olo 5le el sho3a3 romady   */
+    border: 10px solid red;                                /*de 2ly 3mla el 3mdan el 7mra btt7km fe 7gmha mn 10px we splid de 2ly 3mla el lwon we anta 3mlo a7mr [red] */
+    font-family: sans-serif;                                 /*hna anta bt2olo 3aoz el klam eb2a be ktabt ay tb3n fe 50 aw aktr a5tear we el sa7 t7ot kza code ktaba 3shan low wa7d msht8lsh*/ 
+    background-image: url(osos.jpg);                         /*hna anta mnzl el swora hya tb3n atkrrt fe el div bs m8tya el div kolo hdeha band tzbtha */
+    background-size: cover;                                  /*hna anta bt2olo mtkrrsh el swora we el swora b2t mlya el div 3la ado bzbt*/
+    text-align: center;                                      /*de 2ly gbtle el klma 2ly ktbha fe el nos*/ 
+
+
+    /* box-shadow: 0px 0px 10px 2px grey; */
+
+}
+
+
+
+
+
+
+
+                                           /* hna 3rf el div el tany 2ly 3amlo 2ly fe 5ant benat hb2a akmlo b3den  */
+.osamaa{
+    width:1300px;
+    height: 600px;
+    padding: 20px;
+    margin: 100px auto; 
+    box-shadow: 0px 0px 10px 2px grey;
+    border: 10px solid rgb(17, 12, 12); 
+    font-family: sans-serif; 
+    background-image: url(osos1.jpg);
+    background-size: cover;
+    text-align: center; 
+}
+
+
+

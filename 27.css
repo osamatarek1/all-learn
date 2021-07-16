@@ -1,0 +1,29 @@
+body{
+   margin: 0%;
+ 
+}
+
+            /* de el tre2a el s7e7a le ast5dam el shret 2ly fo2 fe el sf7a bt3mlhm be el [li] we [ul] */
+
+
+            
+
+ul.ahmed{
+    /*list-style-type:cambodian;                da 2ol 7aga at3lmtha fe el dars t2dr mn el band da e3mlk ashkal kter fe 2ol el klam aktb bs anta el band we mtktbsh ganbo el 5saya we 25tar br7tk el shakl */
+    /*list-style-position: inside;                de b2a 5let el 2x [ul] fe div wa7d mfesh shakl 5arg bra el div 3shan low 3aoz tdehm lwon wa7d  */
+     /*list-style-image: url(osama.a.png);         Hna anta t2dr tdef sora gnb kol ul bdl el shkl bt3ha  */
+    /*list-style: url(osama.a.png) inside cambodian;     t2dr t5tsrhm kolhm fe band wa7d */
+    
+     display: inline-block; 
+    list-style: none;                                    /*de ahm 7aga fe el dars de anta bt2olo shel el shakl aw el no2ta 2ly be3mlha el ul 3shan low htm3lmhm shret gnb b3d fe el sf7a  */
+     padding-left: 0;                                         /*we de btshel el padding ely el sf7a btede le w7da  le el [ul]  */
+    margin: 0%;                                                 /* hna ana adet el margin da 3shan kan fe msa7a fo2 fe 2ol el sf7a we el [ul] ely kant 3mlha  */
+}
+
+li.osama{
+    background-color: rgb(196, 180, 180);
+    /* margin-bottom: 20px;                                de kont 7ttha 2bl ma 23ml el kayma 2ly fo2 kant 3mla msa7a ben el [li]we el [ul] */
+     display: inline-block; 
+}
+    
+ 

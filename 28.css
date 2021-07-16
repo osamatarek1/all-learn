@@ -1,0 +1,23 @@
+                        /* [hna b3lmk azy t3ml gadol we tzbto] */
+
+
+
+table{
+width: 100%;
+ border-spacing: 0px;                   /*de el sfa7a btkon mdeh nsba lw7dha fe ana 5ltha zero */ 
+
+}
+
+table td{
+padding: 15px;
+background-color: #eee;
+border: 1px solid #e2e2e2;
+}
+
+table  thead td{
+background-color: #f44330;
+color: #fff;
+text-align: center;
+border-color: #f35246;
+
+}

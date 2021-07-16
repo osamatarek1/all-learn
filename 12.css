@@ -1,0 +1,23 @@
+div{
+background-color: rgb(230, 84, 84);
+padding: 10px;
+ /* display: inline-block;                             hna el mfrod 3onsr el div bekon [mn 5syat el block] hna ana 7oltlo [inline-block] leh 7woltlo ln lma kan block kan btol el sf7a ln mdetlosh width fa lma 7oltlo inline block b2a 3la ad el klam 2ly gwa we b2a s8er gdn m3loma lma 7oltlo le inline we 7tet div tany t7te hego gnb b3d msh t7t b3d bsbb ank 7olt el band inline m3loma low hdef divat we 3ozhm enzlo t7t b3d bt7ot <hr> bdl <br>  */
+/* width: 400px;                                          hna low 3aaml mcln 5 divat t7t b3d we 3ozhm kol7hm 7gm wa7d bt7t 400px 3la tol  */
+
+                                                          /* el banden dol mortbten be b3d [min-width] hna anta bt2ol el band eb2 mn 400 le el 25r e3ne ektb br7to we [max-width] hna anta bt2ol el 2a5r bta3o 400px e3ny mhma el 3mel ezod fe gme3 el divat 2ly anta mdeha el 5sya de msh hetolo el klam henzl t7t b3d        */
+
+/* min-width: 400px;                                         hna anta bt2olo 3aoz el Div ebd2 mn 400px l7d el nhya br7to e3ny kol ma el 3mel ektb 7gat ezod m3a br7to el div*/   
+/* max-width: 400px;                                             hna anta bt2olo 25r el div 400 width e3ny mhma e23d ezod el klam enzl t7t b3d we 7gm el div eb2a wa7d efdl 400 m3loma da mrtbt be band [min-width]     ln low shlt el band [min]htl2e el div 2le fe klam 2olel 2al 7gm el width bta3o  */  
+
+
+                                                              /* [dol nfs el klam bta3 shar7 el width] */
+                                                                  
+/* min-height: 40px;                                            hna low el 3amel talb mnk ana 3aoz el div 3rdo 40 bs lma 23oz aktb klam el klam enzl t7t b3do metl3sh bra el div we msh shart t3mlha mmkn t7dd 3ozo ad eh el 25r bta3o mn bnd max 2ly t7te */ 
+/* max-height: 80px;                                              hna anta bt2olo l7d ma eosl le 80px el klam e5rg bra el div ln lma 3mlt [min-height] 7ddtlo 40px eb2 mnhm we ektb br7to l7d nhet el sf7a tb3n da menf3sh ro7 get fe el band da 2ly hwa max 2oltlo 25r el klam [80px] we el klam e5rg bra el div */
+
+
+/* width: fit-content;                                               el band da t2dr bdl ma t3ml el div 5set inline 3shan et7ol mn blck le inline t2dr be el 5sya de t5le el band 3la ad el klam el fe bzbt be el nsba el el 7gm */
+
+}
+
+

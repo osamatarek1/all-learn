@@ -1,0 +1,188 @@
+                                    /* m3loma ana msh 3arf azbt el swor fo2 we t7t kwoes fe msa7a fo2 msh 3aozen etzbto m3rfsh leh  
+                                    hna ana 3aml nzam gadol fe mcln ay montg we anta wasfo be asm */
+
+
+
+
+html
+    {
+    
+    
+    font-family:"times mew Roman",Times,serif;
+   /*background-color:#273746;*/
+      /*direction:rtl;                                        de btgeb el klam aw el div aw ay 7aga fe el sf7a 3la el ymen nfs 5set [right] bs be shart mcln anta 3aml div we 3aml div r2ese le el divat el b2ya menf3sh ekon 7att ay band begeb el div fe el nos msh htsht8l htgblk el klam ely gwa el div emen bs msh htgeb el div kolo emyn lnk mde 5sya fe el div el r2ese band hat el div fe el nos mcl bnd [position:absolute;]*/
+                                          
+    }
+ 
+
+
+
+
+
+
+
+ .osos{ 
+   width: 450px;                                              /*de 2ly bt3ml 3ard el div*/
+   height:503px;                                              /*de 2ly bt3ml tol el div*/   
+   background:rgb(24, 3, 22);                               /*de 2ly bt3ml el div aswod*/ 
+   color:rgb(222, 222, 231);                                /*de 2ly m5lya el klam 2ly gwa el div abyd we 3mla el legend abyd wsf el gadol*/ 
+    
+   padding: 20px;                                             /*de 2ly bt3rd el div 2ly gwa el gdol low shltha htb2a shklha 7lw btos3 we bde2 el div 2ly gwa */ 
+   margin: 50px auto;                                        /*de 2ly gabt el div fe nos el saf7a we 50px de btnl el div t7t we btl3o*/ 
+   border: 20px solid #00FA9A;                             /*de 2ly 3aml el 3mod 25dr ely 7wolen el div*/ 
+   text-align: center;                                       /*de 2ly gyba el klma bta3t el legend fe el nos we el mfrod gyba el swor bs ana 3shan zbthm */  
+   border-radius:60px;                                        /*de 2ly 3amla shkl el Div 7low mn el 2trf*/ 
+   
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img.osama2{
+    width: 100px;
+    height: 97px;
+    margin-top: 100px;
+    margin-left: 0px;
+
+
+}
+
+
+
+
+
+
+
+
+img.osama3{                      /*hna anta m3rf el swora we m2ll 7gmha mn width we height we margin-top we margin-left de btl3 el swora we tnzlha we shmal emyn*/
+
+    width: 100px;
+    height: 97px;
+   g marin-top: 70px;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+img.osama4{                    /*hna anta m3rf el swora we m2ll 7gmha mn width we height we margin-top we margin-left de btl3 el swora we tnzlha we shmal emyn*/
+
+
+    width: 100px;
+    height: 97px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+img.osama{                              /*hna anta m3rf el swora we m2ll 7gmha mn width we height we margin-top we margin-left de btl3 el swora we tnzlha we shmal emyn*/
+
+    width: 100px;                      /*hna anta btt7km fe 7gm el sora  el div*/ 
+    height: 97px;                     /*hna anta btt7km fe 7gm el sora  el div*/
+    /*display: block;                 de 2ly 3rfto ank lma btshlha bt2dr t5le el swora fo2 5als low sbtha msh ht2dr t5le el swora fo2 5als  */
+    
+    margin-top: 100px;                /* da 2ly be5le el swora tt3 we tnzl at7km mn [300px] m3loma band [block] low sbto msh ht2dr tt7km ank t5le el swora fo2 5als */
+    margin-left: 0px;                /* da 2ly be5le el swora tegy shmal we emen at7k mn [300px]*/
+    /* box-shadow: 0px 0px 10px 2px rgb(172, 27, 177); */
+}
+
+
+
+
+
+
+
+
+
+img.ahmed{                              
+    width: 100px;                      /*hna anta btt7km fe 7gm el sora  el div*/ 
+    height: 97px;                     /*hna anta btt7km fe 7gm el sora  el div*/
+     /*display: block;                      de 2ly 3rfto ank lma btshlha bt2dr t5le el swora fo2 5als low sbtha msh ht2dr t5le el swora fo2 5als  */
+   
+    margin-top: 100px;                /* da 2ly be5le el swora tt3 we tnzl at7km mn [300px] m3loma band [block] low sbto msh ht2dr tt7km ank t5le el swora fo2 5als */
+    margin-left: 40px;               /* da 2ly be5le el swora tegy shmal we emen at7k mn [300px]*/
+    /* box-shadow: 0px 0px 10px 2px rgb(172, 27, 177); */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+img.osama1{                               /*hna anta m3rf el swora we m2ll 7gmha mn width we height we margin-top we margin-left de btl3 el swora we tnzlha we shmal emyn*/
+
+    width: 100px;                      /*hna anta btt7km fe 7gm el sora  el div*/ 
+    height: 97px;                     /*hna anta btt7km fe 7gm el sora  el div*/
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+legend.smsm{                                  /*hna anta m3rf el legend 2ly btwosf beha el div*/ 
+    background:#C71585;                     /*hna anta 3aml el lwon bta3 mrb3 el legend bta3 el wasf el gadol*/ 
+    border:1px solid #f3e8f0;               /*hna anta 3aml el 5at ely mlwon el mrb3 bta3 el div abyd    */
+        padding:10px                           /*hna anta btzhr el klma bta3 el wasf*/   
+}
+
+
+
+
+
+
+
+
+
+fieldset.klop{                                  /*hna anta bt3rf el fieldset 2ly 3amla morb3 zy el div da5l el div we 3amla wasf el gadol tb3 legend mn 8erha legend msh htsht8l we low shltha el morb3 bta3 el legnd hetshal */   
+    background:#ADD8E6;                      /*hna mlwon el morb3 lybne bta3 fieldset */
+    border:1px solid #f3e8f0;                /*hna anta 3aml el 5atot ely 7awolen morb3 el field 3mlha abyd*/
+    
+    padding:20px;                   
+    width:400px;                               /*7gm el div be el 3ard*/ 
+    margin:0px auto                             /*hna de btgeb el morb3 2ly gwa el div shmal we emen */
+    
+       
+   
+}
