@@ -1,0 +1,33 @@
+button.osama{
+    background: white;
+    border: none;
+    color: red;
+    font-weight: bold;
+    /* cursor: pointer;                                         hna anta 5let lma agy ashaor 3la el zorar aw el klmt sumpit shkl el mos et8er aknk btshaor 3la link */
+    /* cursor: progress;                                           de anta 3mltha lma tge tshaor 3la el klma e3mlk akn fe 7aga bt7ml el dyra el so8era el zr2a  */
+
+
+    /* cursor: row-resize;                                               de 3mltlk shkl 8reb lma tgy tshaor shklo 7low  */
+    /* cursor: s-resize;                                                       de 3mltlk shkl 3mod s8er we fe shmen  */
+    /* cursor: se-resize;                                                           de 3mlt nfs el sahm bs m2lop aw mayl  */
+    /* cursor: sw-resize;                                                              da m3kos el n7ya el tanya */
+
+
+    /* cursor: wait;                                                                    de 3mlt dyra zr2a 2ly bt7ml aknk bt2olo aspor lma eshaor */
+
+
+     /* cursor: zoom-out;                                                                          de 3mltlk 3lamt el serch 3leha  */
+     /* cursor: all-scroll;                                                                               da shkl 8reb  */
+/* cursor: cell;                                                                                    da 3aml shkl + */
+/* cursor: help;                                                                                        de 3lamt astfham */
+/* cursor: alias;                                                                                       3lma 8reba */
+/* cursor: copy; */
+ cursor: crosshair;                                                                             /*  3almt + kbera gmela mlwona */
+/* cursor: move;                                                                                         shkl 7low */
+/* cursor: vertical-text;                                                                                shm be el 3ard */
+
+/* cursor: no-drop;                                                                                de 3lamt bta3t 5tr 3lma 7mra bta3t mmno3 el td5en */
+/* cursor: grab; */
+
+
+}  

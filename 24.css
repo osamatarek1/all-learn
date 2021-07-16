@@ -1,0 +1,56 @@
+/* position: relative;              el 3onsr da bet7r2 bna2 3n nfso be m3na lma btge t7rko bero7 ay mkan fe el sf7a  */
+
+
+/* position: absolute;                 da bet7rk bna2 3n el sf7a be m3na low oltlo left heb2a fe 2ol el left oltlo right hero7 emen el sf7a msh ht2dr t7rko 7ta bseta   */
+ 
+
+/* m3loma low htst5dm el [absolute] gwa div eb2a lazm el div el r2ese el hekon fe band el htdelo absolute 3shan t7rko fe el div lazm ekon el div el r2swese wa5d [position: relative;] */
+
+                         /* hna b3lmk azy tst5dm absloute we t7rkha gwa div */
+
+
+
+
+
+.osama{
+background-color: rgb(0, 255, 21);
+/* margin-top: 30px;                    [hna el margin low mcln 3aoz t7rk el 3onsr t7t shoya be7rko bs bya5d el div ely t7te m3a fa bdan] */
+width: min-content;
+
+color: rgb(15, 5, 5);
+
+position: absolute;                       /* hna el band da mohm gdn we 3shan a2dr 27rko fe el div zy ma grbt kan lazm ade le el div el r2ese ely t7t [position: relative;]  low mkntsh 7teto fe el div el r2ese el band he5rg bra el div we et7k fe el sf7a htst5dmo kter gdn*/
+
+right: 40px;
+
+
+
+
+}
+
+
+
+
+
+.osama1{
+background-color: red;
+
+
+
+
+
+
+
+
+}
+
+
+
+.test-Absloet{
+background-color: rgb(48, 51, 233);
+width: 500px;
+height: 300px;
+position: relative;                      /*ana 7att el 3onser da fe el div el r2ese 3shan a2dr at7km fe el div 2ly gwa ely hwa osama we asmo fe el sf7a osama mn 8er el band da el 3onsr msh het7rk fe el div we het7rk bra el sf7a  */
+
+
+}

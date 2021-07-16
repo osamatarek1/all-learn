@@ -1,0 +1,144 @@
+
+
+                            /* [hna b3lm el border we e5tsaro ano bet7k fe el 3omedn el 7awolen el gdol t2dr tlwonha we tkbrha we t2dr tt7km fe kol 3mod ad eh ln besm7 ank tdelo 4 5syat zy el baddin we el margin bzbt 5sya gmela awy ] */
+
+div.osama{
+background-color: #ddd;
+padding: 20px;                                           /*el padin da bta3 el msfat 2ly gwa el div anta 3mlha 10 fa kolo hea5d 10 */ 
+width: 50%;                                              /*7gm el div*/ 
+margin: auto;                                           /*de gbtle el div fe el nos  */
+border-width: 10px;                                     /*hna bt7dd 7gm el 3omed 2ly 7wolen el div htkon ad eh be m3na lma tde le el border lwon hekon el 7gm kber wla so8er fe el lwon el 3omed*/ 
+  border-style: solid;                                  /*de el kyma bta3t el border lazm t7dd el kyma 3shan el 5syat we el 2loan tzhr m3loma fe kza kyma kol kyma bt3ml tzbet 8er el tany 23d grb el kyem we 2ly e3gbk 23lo htshel el kyma de we htn2e mn ely hegbhmlk we t2dt bardo t7t kza kyma l7d 4  t5le kol 3mod kyma zyo zy el colr*/
+/*border-style: solid dotted dashed ridge; */            /* hna borek ank enf3 t3ml el kyma bta3t el stel 4 kym aw 3 aw 2 aw 1 br7tk zyha ze b2et 2l 5syat */
+/*border-color: red green blue yellow;                      hna anta t2dr t5le kol 3mod be lwon m3en t2dr tdelo 4 alwon nfs 5set el margin we we el padding we t2dr t5le lwonen aw lwon br7tk nfs el shar7*/     
+border-color: red;                                    /*hna ana 3mlo lwon wa7d bfhmk ank t2dr t3mlha be 4 alwon aw 2 aw 3 br7tk*/
+/* border-color: hsl(0, 0%, 73%);                        [ t2dr t3ml el lwon be el arkm msh shart klam hna ana 3amlo romade grey]  */
+/*border: 10px solid red;                               hna a5tsar kol el bond de fe band wa7d bt2olo 10px de 7gm el 3omed el solid el kyma red el lwon  tb3n anta low 3aoz tt7km fe 7gm el 3aomed we t5le kol 3mod 7gm 8er el tany lzm el 5sya bt3to 2ly hya de [border-width: 10px 20px 30px 25px] fhman ?   */
+
+}
+
+
+
+              /* [gme3 el 5syat bta3 border-style:solid  kol el kyem we el ashkal] */
+/* dotted; 
+dashed;
+solid;
+double;
+groove;
+ridage;
+inset;
+outset;
+none;
+hidden;
+dotted dashed solid double;
+*/
+
+
+
+
+
+
+                      /* [5syat bt5le el div eb2a gwa 2 morb3 gmela we 3lehm 5set kman hseb 2ol 5sea bta3 el 2 morb3 el 2ol] */
+
+ /* border-style: double;              de bta3t el 2 morb3 
+ border-width: 15px;
+
+ border-style: dotted;             de bdl el 3omed ely 7wolen el div no2t 
+ border-width: thick;
+
+
+ border-style: dotted;             de 7lwa bardo 
+ border-width: 2px;
+
+ border-style: solid;
+  border-width: medium;            hna bt2olo 5le el 3omed 5fefa gmela el 5sya 3gbtne 
+
+
+  border-style: double;
+  border-width: thick;               hna 2 motb3 gwa el div bs 5fef */
+      
+
+
+
+                             
+
+
+
+
+
+        /* [t3lem 5syaet el border-width:   2ly hya lma tge tde kym le el 3omed aw el 7gm bt3hm t2dr tt7km fe kol 3mod 7go ad eh hna aknk 3aml div we bt3rfhm 3shan afhkm ] */
+
+                                                /* [t2der behm t3ml 7gat 7lwa fe el div] */
+
+
+    p.one {
+    border-style: solid;
+     border-width: 5px 20px;                       /*[5px top and bottom, 20px on the sides]  */
+    }
+                                  
+    p.two {
+    border-style: solid;
+    border-width: 20px 5px;                       /*[20px top and bottom, 5px on the sides ] */
+    }
+                                  
+    p.three {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;             /*[25px top, 10px right, 4px bottom and 35px left]*/
+    }
+
+
+                                                   
+
+
+
+
+                           /* [5syat t2dr mnha t3ml 3mod m3en bs mlwon we tdelo el 7gm 2ly 3ozo t2dr t3ml mn fo2 bardo Tob aw right el 4 sh8len hna ana 3lmtk 2 bs ] */
+
+p.osama5{                    
+    border-left: 6px solid red;                /*[t2dr be el 5sya de t3ml 7ta bs s8era 7mra mn 2ol el div lnk oltlo border left e3ny 23mle el 7ta 2le fe 2ol el div we mmkn tkbr 7gma mn el 6px m3na left hna el goz2 2le 3la el shmal bta3 el div aw el 3mod  */
+    background-color: rgb(224, 203, 203);
+  }
+
+
+
+
+
+  p.osama6{
+    border-bottom: 6px solid red;               /*[t2dr be el 5sya de t3ml  el satr el t7t bta3 el div 2w el 3mod el t7t hwa bs 2ly 27mr lnk oltlo botom  */
+    background-color: lightgrey;
+  }
+
+
+
+
+  
+
+
+
+
+
+
+                                        /* [de no3 bardo mn el bordr be5le bdl mt3ml el div morb3 be5le da2re zy el 5sya el at3lmtha we 5px de kol lma btzoda b2l 7gm el 5tot aw be5 kol ma t2l bebrz aktr fksana e3tbr] */
+
+ p.normal{ 
+    border: 2px solid red;
+}
+
+
+p.round1{
+    border: 2px solid red;
+    border-radius: 5px                 /* el 5sya de m3na klmt 5px bt5le el div bdl ma morb3 bekon da2re zy el 5sya el adema we 5px de btzhr el div kol ma htzod he2l lwon el 5at heb2a 5fef hna ana 3mlhm be el tdreg hna akbr 7aga t7t as8r we as8tr  */
+}
+
+
+
+  p.round2{
+    border: 2px solid red;
+    border-radius: 8px;
+  }
+
+  p.round3{
+
+    border: 2px solid red;
+    border-radius: 12px;
+  }

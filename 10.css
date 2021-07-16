@@ -1,0 +1,78 @@
+
+                                    /* 5olst el dars da beshr7 low 3ndk kza div aw ay wasm tany we htde lehm 5syat zy b3d t2dr t3ml kda el shar7 hefhmk  */
+
+
+
+
+
+
+
+
+div.osama1{
+ /*padding: 10px;                                                         el badding kol ma tzod fe 10px de 7gm el Div bekbr m3ak   */
+border-bottom: 2px solid red;                                       /*hna anta bt2olo 5le el 5at el t7t bta3 el div 27mr  */
+color: red;                                                         /* hna anta mlwon el klam el gwa el div 27mr    */  
+ /*margin: 10px 0;                                                              hna anta bt2olo el str el fo2 we el t7t 10px we el shmal we el  emyn 0 5d baldk el margin kol ma htzod feh be3mlk msa7a fo2 we t7t */
+/* background-color: #EEE;                                                   */
+
+
+}
+
+
+
+
+div.osama2{
+    
+    border-bottom: 2px solid green;                                       /*hna anta bt2olo 5le el 5at el t7t bta3 el div 27mr  */
+    color: green;                                                         /* hna anta mlwon el klam el gwa el div 27mr    */  
+       
+
+    
+}
+
+
+
+
+
+div.osama3{
+
+    
+    border-bottom: 2px solid blue;                                       /*hna anta bt2olo 5le el 5at el t7t bta3 el div 27mr  */
+    color: blue;                                                         /* hna anta mlwon el klam el gwa el div 27mr    */  
+    
+}
+
+
+
+
+div.osama4{
+
+    
+    border-bottom: 2px solid black;                                       /*hna anta bt2olo 5le el 5at el t7t bta3 el div 27mr  */
+    color: black;                                                         /* hna anta mlwon el klam el gwa el div 27mr    */  
+   
+    
+}
+
+                    
+
+
+
+
+
+
+            /* hna ya m3lm anta adet kol el divat ely fe sf7a 5syat wa7da da low 3ndk 5x div aw aktr mcln we htdehm nfs el 5syat ht3ml el 25tsar da gmel gdn we ely mcln low msh 3aoz 5sya tkon fe el tany btdeha fe t3ref el class fo2 hna bs btde ely he5do 5syat zy b3d  */
+
+
+.osama1,
+.osama2,
+.osama3,
+.osama4{
+
+    padding: 10px;                                                       
+    background-color: #EEE;                                                                   
+    margin: 10px 0;                                                               
+    
+    
+
+}

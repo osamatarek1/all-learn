@@ -1,0 +1,113 @@
+div{
+                          /* [hna anta shar7 fr2 el margin mn el pading + shar7 t2dr tgeb ay div fo2 aw t7t aw t5fe noso lma ttl3o fo2 fe el sf7a 5als aw tgebo shmal aw emen] */
+
+
+
+background-color: #DDD;
+padding: 10px;                     /* el badng mohmto ano bekbr el div mn gwa be m3na el klam el gwa el div bekon fe 2ol el morb3 aknk 3aml bnd fe el saf7a da b2a kol lma btzodo el div bekbr mn kol el atghat we kol ma btkbro el klam benzl t7t fe nos el div 3la 7asb anta 3aozo fen zy ma atf2na fe shar7 el dars  btzbto be top we right we left we width we margin bt7ddhm anta 3aoz men fehm tdelo badin 5olst el band be5le el klam ely gwa el div ebd2 mn 3nd el hamsh ely 3amlto  */
+/* margin: 10px;                      el maring b2a 3ks el padding da ms2ol 3n 5arg el div e3ny kol lma btzodo btl2e el div benzl m3ak t7t we ero7 shmal we emen t2dr mno twde el div amakn kter kol ma tzod  be m3na da bezod el hamsh el 5arge we kol ma tn2lo el div betn2l we bezod el hamsh el 5argy + low 3aml kza div fe el sf7a msh mdehm asm we 7tet bnd padding 10px mcln he3mlk morb3 el div we hefr2hm 3n b3d   */
+/*margin-left: 10px;                    t2dr mno t3ml 5sya gmya zy mcln el band da kol ma htzod fe el 10px hero7 shmal shoya low 3mlto -10px herg3 wra mkano shoya zy el band ely w2f m3ak fe el sf7a lma kont 3aoz tgeb el gmla 2ol el sf7a m3rftsh fe el sf7a el gdeda bta3t el mshro3  */
+/*margin-top: 60px;                       el top hna bt5le el div enzl t7t btt7km fe br7tk t2dr t3mlo - 60 bardo hetl3 m3ak fo2 we t2dr t5fe noso aw aktr 5arg el sf7a bnd gmel  */
+
+
+
+
+
+
+
+
+
+                                /* [hna tre2a ank tde el div be el drga el m2oya] [width:100%] de kmtha 100% e3ny  anta bt2olo ekon be 3ard el sf7a kaml tb low adeto 70 hetb2a 30 he2dr el sf7a twoz3hm be el 5syat de mhma t8er fe el [width] htfhm mn el 5syat we el shat7 */
+                                /* el tre2a low el 3mel bard we befdl e8er fe el [width:70%] low kol shoya mcln be5leha 60 aw 50 fa kda hetb2a nsba ely bttoz3 shmal we emen bt3ml anta b2a [auto] 3shan kol ma e8er el sf7a toz3 be el 3adl */
+
+ width: 70%;                               /*[mohm] el nsba el m2oya 2ly hya de [%] 3ks el el [px] el % 25rha [100%] 100% de m3nha heb2a be 3ard el sf7a kolha afrd mcln anta 3mlha [70%] zy hna kda tb3n 70% de hta5d t7t we fo2 mn el gdol hetb2a emen we shmal anta kda mdtlhmsh el 30% ely atb2o be m3na atf2na [100%] e3ny el div hekon be 3ard el sf7a mt2drsh tzod 3n kda lma tdelo anta 70% hetb2a 30% mn el [100%] dol lzm toz3hm anta 3shan el sf7a mtoz3hmsh 3la dm8ha ln htoz3hm fe el agnab ely hwa shma el div we emeno mn n7et bdaet el klam fe el div 3shan b2a tre7 dma8k 3shan low fdlt t8er fe 7gm el div 2ly hya [70%] fa tb3n kol ma ht8er hetb2a nsba mn el 100% 3shan t5le el sf7a toz3hmlk be el 3dl we el s7 emen we shmal ht7t [margin-left: auto; ] + [margin-right: auto;] m3na auto hna e3ny wz3y be el 3dl shmal we emen mhma b2a 2llt fe el 70% 5lthm mcln 60% hetoz3 el 40% el b2en 20 shmal we 20 emen 3shan anta 7att outo   */
+ margin-left: auto;                        /*  [auto] m3nha hna e3ny wz3 be el 3dl el [30%] ely mtb2en mn el 70% fe el [width ] bt2olo ade 15 le el shmal hwa tlka2y el sf7a ht7olhm bdl ma tt3b anta we t23d t8er mhma b2a t8er fe el width he2sm hwa be el 3dl 3shan anta 3aml outo   */
+margin-right: auto;                         /*  [auto] m3nha hna e3ny wz3 be el 3dl el [30%] ely mtb2en mn el 70% fe el [width ] bt2olo ade 15 le el emen hwa tlka2y el sf7a ht7olhm bdl ma tt3b anta we t23d t8er  */
+
+
+
+
+    
+
+
+}
+
+
+
+
+
+
+                                           /* [hna tre2a low el 3amel 3aml div we anta mt2kd ano msh he8er 7gm el div low 3mlo 7gmo mcln[width:60%] hetb2a tb3n 40% 3aozen etoz3o shmal we emen bt2smhm 3la 2 hetb2a 20 htro7 tktb el band ely katbo fe el 5sya 2ly hwa da [margin-left: 20%;]  anta adeto hna 20 3shan hwa tlk2y lw7do hede le el ganb el emen 20% zy a5o 2ly fe wsho eb2a anta kda 2flt el 10% bto3 el div we el tr2a de msh mdmona zy el auto 2ly fo2eha 7bet ashr7ha bs ] */
+
+ div.osama{ 
+                                        
+    width: 60%;                                  /* [hna anta adet el div 60% tb3n hetb2a 40% 3aozen etoz3o 3shan el sf7a mtoz3hm 3la mzgha ]*/
+    margin-left: 20%;                            /* [hna anta 2ho wz3t el 40% el b2en be [20%] azy teb h2olk lma tde el ganb el shmal 20% hwa tlk2y hede le el emen 20% le w7di zy dars el pading lma at3lm m3loma hna low anta mt2kd an el 3mel msh he8er 7gm el div we 2ly 27sn t3mlha be [outo zy shr7 fo2]]*/
+ } 
+
+
+
+
+
+
+
+
+div.osama1{
+
+    border: 1px solid black;                /*el 1px da 2ly 3aml el morb3 el aswod 2ly m3fl 3la el div aw mbrozo we klmt solid black de anta mdelo lwon aswod */
+    margin-top: 100px;                        /*de 2ly mnzla el div t7t shoya we t2dr tnzl aktr kol ma tzod fe el rkm we t2dr ttl3o fo2 be el -100 aw t2ll fe el rkm  we t2dr t5fe noso kman gwa el sf7a */
+    margin-bottom: 100px;                      /* de m3rfsh bt3ml eh mlhash lzma bshla we bms7aha we agrb msh bt3ml 7aga */
+    margin-right: 150px;                      /*de fe sf7t el w3 lma bshel el band bes8r el div hna lma bshlha msh bt3ml 7aga msh fahm leh*/ 
+    margin-left: 80px;                        /* de 2le bt5le el div e5sh 3la el emen shoya we t2dr mna t5le e5sh shmal kol lma tnzl fe 80px aw t3mlo -80px 5sya gmela we t2dr t5fe noso kman gwa el sf7a */
+  
+    background-color: lightblue;             /*hna anta m5le lwon el div lbny mn gwa */
+
+}
+
+
+
+
+div.osama2{
+  width: 300px;                     /* de btt7km fe 7gm el div  */
+  margin: auto;                     /* de bt5le el div fe nos el sf7a */
+  border: 1px solid red;
+}
+
+
+
+
+
+
+
+div.osama3{                       /*da el div 2ly anta na2l fe el klam fe nos el div we m7rk el div shoya 3la el emen we mde class le el [p] 3shan tn2l el klam fe el nos */
+
+    border: 1px solid red;
+    margin-left: 100px;                 /*hna anta m2rb el div emen shoya */
+}
+ p.osos{                                     /*da tb3 div osama3 hna anta nal2 el klam ely gwa el div fe el nos  */
+
+    margin-left: inherit;                   /*[mohm]  el band da gamd ben2l el klam ely gwa el div fe nos el div   */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                /* 5sya bt5le 7gm el div enzl le t7t we 7gmo bes8r kol ma btzod fe el 70px */
+/* div{ 
+    margin: 70px;                                   t2dr be el 5sya de t7rk el div begbholk fe nos el sf7a + ank kol lma btzod fe el 70px el div benzl le t7t m3loma kol ma btzod we t5le enzl 7gm el div bes8r 
+    margin: 0 0 50px 0;                            t2dr be el 5sya de ank t3ml fr2 ben banden mcln fe h1 we h2 fe el sf7a 3aoz t3ml bnhm msa7a fe el nos da be3ml ka ab2a 2l3b fe el arkam
+}*/
+

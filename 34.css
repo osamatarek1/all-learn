@@ -1,0 +1,62 @@
+div.one{
+background-color: red;
+color: white;
+
+
+}
+
+
+div.tow{
+background-color: #eee;
+width: 100px;
+height: 100px;
+
+
+
+}
+
+
+
+a{
+    color: green;
+    text-decoration: none;
+    
+    
+    }
+    
+    a:hover{                                            /*haver hna mn anwa3 el [seudo-classes] we  da bt5lek lma tshaor 3la el link el lwon bta3o et8er hna h8ero a7mr   */
+    color: red;                                              
+    }
+    
+    
+    /* .ch:checked+label{             hna ana b2olo 2ol ma ados 3la morb3 bta3 3lamt s7 2ly asmo [checked] el kalma 2ly fe band [lavel] etlwon bnfsgy 
+    color: blueviolet;
+    }*/
+    
+.ch:checked{                          /*m3na da b2olo 2ol ma ados 3la el morb3 ely be3ml 3lama s7 e5tfy*/
+    display: none;                            /*hna b2olo 2ol ma ados 3la el morb3 e5tfy*/
+    
+    
+    
+    
+    }
+
+a:visited{                               /*el band da bt2olo low m7dsh zar el link we da5l 3leh etlwon be el lwon da we low 7d shafo erg3 el 5syat el tb3ya ely hya lwon el 25dr we lma ashaor eb2a 27mr low md5lsh 3leh he3ml el lwon ely labny we low shaort msh h8er el lwon be m3na br5le el linkat 2ly m7dsh zrha lwon m3en */
+    color: cyan;                     /*hna bt2olo 23ml el lwon labny  */
+    }
+    
+
+    /*:empty{                                             el 5asya de anta bt2olo ay div fady msh gwa 7aga aw prgraf aw el [hr] 2ly bt3ml 5at ay 3onsr msh gwa klam lwono el lwon da we tb3n t2dr t7dd ay bzbk ea5d el 5sya de bt2olo class 2ly band we bt7t :empty 
+    border: 10px solid slateblue;                       
+    }*/ 
+
+    .in{
+    border: 10px solid springgreen ;                                /* hna b2olo 5le al bordr bta3 el input 2ly hwa el morb3 border el lwon el 25dr da we b2olo lwon el gwa el morb3 bnfsge */ 
+    background-color: rgb(255, 0, 234);                              /*hna b2olo el lwon 2ly gwa el morb3 bnfsge*/ 
+    }
+
+.in:focus{                                                           /* hna ana b2olo el input el morb3 2ly mtllwon 25dr 2ol ma ados 3leh 3shan aktb et8er el lwon le 27mr we bardo 2ol ma ados 3leh el lwon 2ly gwa etlwon azr2*/  
+    border: 2px solid tomato;                                             /*hna b2olo 2ol ma ados 3la el morb3 el lwon bta3 el border et8er le 27mr*/ 
+    outline: none;                                                       /* hna b2olo shel el [outline] 2l aswod 2ly 7wolen el morb3*/ 
+    background-color: rgb(76, 0, 255);                                     /* hna b2olo 2ol ma ados 3la el morb3 el lwon 2ly gwa el morb3 etlwon azr2*/ 
+    }

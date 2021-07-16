@@ -1,0 +1,56 @@
+/* float */
+/* clear */
+
+                                        /* 5olst el dars  ank mmkn t5le ay band block zy el div tgbhm gnb b3dd be el [float: left] bs heoghk mshkla ht7lha be el [clear]  */
+
+div.osama{
+background-color: red;
+padding: 10px;
+
+
+
+
+444444444444444444444444444
+
+ /* overflow: hidden;                         el over flow hna kan mmkn e3alg mshklt el [float] ln el float lma 7teto 3shan e5le el divat tge gnb b3d bdon ma 23mlhm display: inline-block;  el [float] 5la el 4 divat t3om fe el sf7a we boz el donya we boz el div el r2ese 2ly hwa da we 5la hight:20px we el 20 de gbha kman 3shan el padding 2ly mdeha le el div da low shlt el paddin heb2a 0 width we hekon s8er we mboz we lma 7tet band el [diply:inline-block] t7t fe el divat 2ly gnb b3d  zbt el donya bs hekon fe mshkla an lma agy mcln 23ml fe el div 2y shret enzl mno msh het3ml bsbb el band da bta3 overflow:hidden ln el band da be5fe el msa7a 2ly t7t bta3t el div fa kan lazm ashof ay 5sya tany we a5tr3t 5set el [ clear: both;] 3shan 27l el moshkla 3mlt wasm {p} we 7ateto m3 el 4 divat fe el  html we adeto el calss da  [clear: both;] we da 3alg el float we el 3oman bta3 el divat 2ly kan bayz */
+/* height: 60px; */
+
+
+
+455555555555555
+
+
+
+
+
+
+}
+
+
+.osama div{
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+background-color: #eee;
+width: 25%;                                                      /* hna 3mlt da ln m2as el div bekon 100% we ana 7att 4 divat fe fa kol wa7da fehm 25% fa hekon mgm3hm 100% fa at2smo fe el div  */
+ float: left;                                              /* [hwa da modo3 el dars kolo el 5sya de 2ly gbtle el 4 divat gnb b3d bdl ma ast5dm display: inline-block;] bs 3mlt mshkla in 5lt el 4 divat ebozo we e3mo fe el sf7a we band el {p}2ly 7ato t7t el divat 5als tl3 gnbhm we boz el donya fa mknsh fe 7l 8er  any a5tr3 we 23ml wasm [p] we adelo class we 27to m3 el 4 divat t7t we adelo 5set  [clear: both;] we de bt3alg el float mn el shmal we el emen we zbttle el donya  */
+/* float: right;                                        de nfs el 5sya bs btgbhm 3la el emen we hna el klam english fa bebd2 mn el shmal fa asht5dmt left hna low el sf7a 3rby htst5dm right  */
+
+
+
+
+
+/* display: inline-block;                                    da 2ly 3alg el moshkla el 2ol m3a el over flow 2ly fo2 bs l8thm we 25tr3t 5set el [float:left] bssbb an low kont 3mlt kda mkntsh h3rf 23ml ay 23lan enzl mn el div t7t bss el hidden 2ly 3mla fo2 lnha kant ht5fe el 7ta 2ly t7t bta3t el div                    */
+
+}
+
+
+
+
+
+                         /* ast5dmt wasm el [p] 2ly adeto class we 7teto m3 el 4 divat 25r 7aga we mktbtsh fe 7aga 3shan adelo el 5set bta3t [both] de 3shan t3al el [el float] mn el shmal we el emen  */
+ .clear{
+
+ clear: both;                                             /*da a7sn mn el bnden el t7t ln be3alg el emen we el shmal bta3 el float  */
+/* clear: left;                                          da be3alg el overflow mn n7et el shmal 3shan low 7bet el div da t3ml fe mn t7t shkl benzl mno fa be el tbe3e el shkl msh henzl lnk 3aml overflow fo2 e3ny 5afe el div mn t7t 3shan t3alg el div bsbb 5set float */ /* clear: right;                                              da be3alg el overflow mn n7et el emen 3shan low 7bet el div da t3ml fe mn t7t shkl benzl mno fa be el tbe3e el shkl msh henzl lnk 3aml overflow fo2 e3ny 5afe el div mn t7t 3shan t3alg el div bsbb 5set float */ */
+ }

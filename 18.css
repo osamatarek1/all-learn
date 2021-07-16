@@ -1,0 +1,34 @@
+                         
+                       /* [hna ana b3lmk azy tde ay wasm zy el [p] aw el [h3] aw ay wasm nfs el 5sya 2ly mdeha fe el div be [inherit]] */
+
+
+
+
+
+div.osama{
+text-align: center;
+padding: 20px;
+font-size: 20px;
+border: 2px solid red;
+width: 300px;
+margin: auto;
+
+}
+
+
+h3.osama1{
+/* border: 2px solid;                    hna low 3aoz tzod 7gm el 5at bta3 el border 8er el div */
+border: inherit;                      /*band [inherit] da anta kda bt2olo 23mle [h3] nfs el border bta3 el div be el lwon be kol 7aga  */
+padding: inherit;
+
+}
+
+
+
+
+p.osama2{
+    border: inherit;           /*band [inherit] da anta kda bt2olo 23mle el [P] nfs el border bta3 el div be el lwon be kol 7aga  */
+    padding: inherit;
+    font-size: 25px;
+}
+

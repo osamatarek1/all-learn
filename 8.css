@@ -1,0 +1,103 @@
+
+/* block 
+
+low anta msh kat [width] m3en we m7ddo hwa bea5d full width e3ny el 100%
+ tany 7aga el 3onsr el block msh be5le ely bnod gnb b3d e3ny mcln hna ana 3aml 3x div msh begbhm gnb b3d be3mlhm t7t b3d
+talt 7aga be2bl el [padding] we el [width] we el [height] we el [margin] 
+e3ny 5olst el shar7 el 3onsr el block be7trm kol el 5syat prince fe nfso 
+
+
+
+
+
+
+
+
+Inline                                                        
+
+band el inline msh be5le el bnod t7t b3d be3mlha gnb b3d bdon fr2 
+tany 7aga msh be2bl el [width] we el [height]
+we be2bl el [padding] we el [Marign] bs mn el ganb bs e3ny mn el shmal we emyen el div fo2 we t7t l2 anta ht7s anwo bea5d fo2 we t7t bs lma t7t ay klam t7te aw ay 3nsr block we tge tkbr el padin htl2e be8te 3la el 3onsr el block bss an el lwon 2ly anta mde le 3ons el inline hwa el bekbra msh el band nfso 
+we msh be2bl el [width] we el [height]
+
+[low 7abb b2a t5lehm t7t b3d we et3mlo m3mlt el block we enzlo t7t b3d msh gnb b3d we  e2blo kol el 5syat bardo  [bt7ot dispaly:block] htl2e kol el 5syat asht8lt we het3mlo m3mlt el Block 3ady we el 3ks low band block we 3aozo inline ht7ot band el [dispaly:inline]
+
+we low 7abb t5le band [inline] zy ma hwa we ekono gnb b3d el tb3e bt3hm 3shan hwa band inline  bs e2bl kol el 5syat bt7t 3ady we btsht8l bt7ot band [display:inline-block;] htl2e kol el 5syat asht8lt we hwa inline 3ade we gnb b3d we htl2e wl padding we el margin sh8len fo2 we t7t we shmal we emen fe el div 
+
+
+
+Inline Block
+besm7 be kol 7aga e3ny be7ol band el inline le block we el block le el inline 5sya gmel 
+we be2bl be el Padding we el Margin we el width we el height 
+
+
+
+
+
+
+
+
+*/
+                                   /* eb2a hna ana grbt 3la band el div 2ly hwa [block] we 5d kol el 5syat we tmam   */
+
+ div{                              
+
+background-color: #EEE;
+padding: 10px;
+margin: 10px;                                      /*el margin hna hwa 2ly 3ml kol div le morb3 el div bta3o we fr2hm m3loma mhma  */
+width: 300px;
+height: 30px;
+}
+
+
+
+
+                                         /* [hna ana 5let el div et3aml m3mlt el inline bdl ma hwa block be m3na ane low 3aml 3 divat t7t b3d we 3ozhm gnb b3d bt7ot band [disply:inline] ]
+
+div{                  
+background-color: #EEE;
+padding: 10px;
+margin: 10px;     
+width: 300px;                              
+height: 30px;
+display: inline;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                    /* hna ana grbt band el inline we 5leto et3aml m3mlt el block we e2bl kol el 5syat we hwa inline 3ady e3ny hefdlo gnb b3d bs he2blo kol el 5syat  */
+span{
+background-color: #EEE;
+display:inline-block;
+
+
+}
+
+
+
+
+
+
+
+
+                                    /* hna ana 5let band el inline et3aml m3mlt el block e3ny enzl t7t b3d bdl ma kan gnb b3d we e2bl kol el 5syat we et3aml m3mlt el block
+
+span{
+    background-color: #EEE;
+    display:block;
+} */

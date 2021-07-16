@@ -1,0 +1,94 @@
+
+                /*[m3loma el dars da be3lmk azy t3ml hoamsh gwa el div be m3na el klam ely mktob gwa aw el swora bebd2 mn 2ol el div t2dr t3ml msa mn fo2 we mn t7t we mn el agnab br7tk aknk btkbr el div be m3na dlo2te fe 25r el div fe klam 3aoz t3ml msa7a le we eb2a fe shoya t7t fe 25r el div fdyen bt3ml pading le t7t he3mlk msafa we hetol el div de el hoasmh el da5lya ] */
+                /*[m3loma el padding enf3 m3a 10px we 10% bs] */
+
+
+
+div{
+     background-color: #ddd;                       /*m3loma anta low ktbt [background] bs bdon color el mfrod hwa be7t color we 5syat kter mn 3ndo ht3rfa lma tft7 saf7t google we t5sh 3la el 5syat htl2e shm low ft7to htl2e ano enf3 ank t3ml 5syat kter fe band wa7d  */
+
+      /*padding: 10px;                                 m3loma el [px] ely fe el css 8er el [px] 2ly fe el shasha lma tft7 google we el 7war da 3shan tfhmo lazm cours */
+      
+      /*padding: 10px;                                 [mohm] m3oma el pading bta3 el hoamsh el da5l el div tany 7aga anta low 2oltlo [padding:10px] zy ma m3mol hna he3ml le el 4 5syat bto3ha 10px e3ne ay el klam da h2olk el bading le 4 zoya mcln el div leh 4 zoyat fo2 t7t shmal emen kol wa7da femh 5sya [Top] [right] [bottom] [left]  be m3na ank low 3mlt 10px bs hede le kol el 4 5syat dol el 10px el band bekon kda [padding-left:] el mfrod t7t le kol wa7da mn el 4 dol 5sya la t3mlhm kolhm fe bnd wa7d zy ma hnkml fe el shar7 t7t */
+        
+
+
+                             /* hna be3lmk el bading we el kym bt3to hna ana b3lmk low adet 2x kyma bs eh ely he7sl fe el 2 el b2en  */
+      /*Top. Right. Bottom. Left.                 ana 3mlt dol 3shan ashr7lk we afhmk el mfrod an kda mt2smen s7 be m3na anta adedt padding: 10px; kolhm he5do 10px tyb low mcln a5tsrt we 2oltlo padding: 10px 20px;  kda anta bt2olo [top:10px] we [right:20px]tb3n a7na atf2na kda na2s 5setn mdthmsh hwa tlk2e he3ml le el fe wsho zyo bzbt e3ny anta na2slk bottom we left bottom kda hta5d 10px zy el top 3shan fe 2odmha we left hta5d mn el Right 20px 3shan 2odmha hfhmk aktr fe el shar7 t7t */
+      /*10px. 20px.  10px   20px                 hna ana wasflk kol 5sya mcln anta adtha el kyma bt3tha   */
+     /* padding: 10px 20px;                      [aho] hna anta kda 2oltlo ade le el [left 10px] we el [right 20px] e3ny adet le kmten bs  tyb kda na2s 2 ely hwa bottom + left dol b2a low anta mdthmsh kyma zy hna he5do mn kol wa7da nfs el kyma 2ly 2odmha e3ny [bottom ht5d 10 px mn Top ln t7tha]  [we left hta5d 20px mn right 3shan fe el ganb el tany 2odmha ] 5olst el modo3 low m7ddtsh le kol 5sya hta5d mn el kyma el 2odmha zy ma anta mdeha  */
+                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              /* tyb mcln low adet 3 kyem bs we sbt w7da hna h3lmk eh he7sl*/
+
+            /* 10px.  20px.   10px   20px                  [hna mcln el 4 kyem zy ma mrsosa fe el sf7a el r2sya be m3na zy ma el sf7a bt3mlhm ] */
+    /*padding: 10px   20px    15px;                         [hna anta adet 3 kyem we 7dtthm na2s kyma mdthash hta5d mn el right ln fe wshha we htb2a 20 ln el right hna 20px ] */
+  
+
+
+
+
+
+
+
+
+
+
+
+
+                     /* hna shar7 low el 3myl bed we tlp mnk ank tdelo mn t7t bs [padding] we ba2y el div msh 3aoz */
+     /* h3lmk kol atgah el 2ol fen el [Top:bekon Fo2]     [right:btkon 3la el emen]  [bottom:btkon mn t7t]   [left btkon 3la el shmal edy mn 3la el shasha bt3ty] */
+
+                        /*10px.                             20px.                                       10px                                                                     20px                                                                                                                                             hna 3shan 23lmk tesr low el 3mel talp mn t7t bs 23ml hoamsh we kolo la2  */
+    /*padding: [0 3shan da fo2 2ly hwa top]   [3la el ymen 2ly 0 2ly hya right]  [fe el nos zy ma el 3mel talp 10 px 2ly hya bottom]     [mn 3la el shaml 0 2ly hya left we msh m7tag tktb el shmal ln hta5d mn 2ly 2odmha zy ma fhmtk]       */
+
+      
+
+
+
+
+
+                          /*[hna h3lmk a5tsar b2a low 3aoz tde mcln kyma le hamsh wa7d aw mcln tde le el div mn t7t bs aw fo2 bs aw ay atgha 3ozo bdon ma el sf7a tde le el mdtosh lw7dha] */
+
+
+     /*padding-bottom: 10px                 kda he3mlk de bs 10px we el ba2y 0 lnk 7dttlo anta 3aoz eh bzbt be m3na bt2olo 3aoz hamsh fe el mkan da bs  */
+     
+
+
+
+                         /*[hna anta 7dttlo ank 3aoz el 2 bs dol e3mlo hamsh fe el div fa he3ml kda we msh hedy 5syat el far2 bene we ben el tany ank bt7ddlo] */
+       /*padding-left: 10px;*/
+       /*padding-right:10px;*/
+       
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+div.smsm{      /* 
+        da div m3mol asfr shklo shek 5arg 3n el 5seat ely hna  */
+
+        width: 300px;
+        background-color: yellow;
+      }
